@@ -42,7 +42,7 @@ const Header = () => {
       <header
         className={`header left-0 top-0 z-40 flex w-full items-center ${
           sticky
-            ? "dark:bg-gray-dark dark:shadow-sticky-dark fixed z-[9999] bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm transition"
+            ? "fixed z-[9999] bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm transition dark:bg-gray-dark dark:shadow-sticky-dark"
             : "absolute bg-transparent"
         }`}
       >
@@ -140,7 +140,13 @@ const Header = () => {
                                 openIndex === index ? "block" : "hidden"
                               }`}
                             >
-                              <div className="grid grid-cols-1 gap-4 p-4 lg:grid-cols-6">
+                              <div
+                                className={`grid ${
+                                  menuItem.title === "Technical Services"
+                                    ? "lg:grid-cols-4"
+                                    : "lg:grid-cols-6"
+                                } gap-4 p-4`}
+                              >
                                 {menuItem.submenu &&
                                   menuItem.submenu.map(
                                     (submenuCategory, subIndex) => (
@@ -149,22 +155,33 @@ const Header = () => {
                                           {submenuCategory.title}
                                         </h4>
                                         <ul>
-                                          
                                           {submenuCategory.links.map(
                                             (submenuItem, linkIndex) => (
                                               <li key={linkIndex}>
+                                                {menuItem.title ===
+                                                  "Technical Services" && (
+                                                  <div className="para">
+                                                    <img
+                                                      src={submenuCategory.img}
+                                                      alt={
+                                                        submenuCategory.title
+                                                      }
+                                                    />
+                                                    {submenuCategory.desc}
+                                                  </div>
+                                                )}
                                                 <Link
-                                                  href={submenuItem.path}
+                                                  href={submenuItem.title}
                                                   className="block py-2 text-sm text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
                                                 >
                                                   {submenuItem.title}
                                                 </Link>
                                               </li>
-                                            )
+                                            ),
                                           )}
                                         </ul>
                                       </div>
-                                    )
+                                    ),
                                   )}
                               </div>
                             </div>
@@ -178,7 +195,7 @@ const Header = () => {
               <div className="flex items-center justify-end pr-16 lg:pr-0">
                 <Link
                   href="/signup"
-                  className="ease-in-up shadow-btn hover:shadow-btn-hover hidden rounded-sm bg-primary px-8 py-3 text-base font-medium text-white transition duration-300 hover:bg-opacity-90 md:block md:px-9 lg:px-6 xl:px-9"
+                  className="ease-in-up hidden rounded-sm bg-primary px-8 py-3 text-base font-medium text-white shadow-btn transition duration-300 hover:bg-opacity-90 hover:shadow-btn-hover md:block md:px-9 lg:px-6 xl:px-9"
                 >
                   Download Catalogue
                 </Link>

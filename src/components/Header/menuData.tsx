@@ -18,16 +18,8 @@ const menuData = [
           { title: "  Earth Bars", path: "/backend" },
           { title: "    'U' Bolt Clamps ", path: "/backend" },
         ],
-      },   
-      
-      
-     
-      
-      
-     
-     
-      
-      
+      },
+
       {
         title: "Lightning Protection",
         links: [
@@ -42,14 +34,6 @@ const menuData = [
           { title: " Free-Standing Air Terminals", path: "/android" },
         ],
       },
-      
-
-
-
-
-
-
-
 
       {
         title: "Conductors",
@@ -65,26 +49,6 @@ const menuData = [
           { title: " Bare Stranded Copper Conductors", path: "/android" },
         ],
       },
-     
-
-
-
-
-      
-     
-      
-      
-   
-   
-     
-     
-     
-   
-      
-      
-
-
-
 
       {
         title: "Fastners & Fixings",
@@ -116,15 +80,6 @@ const menuData = [
           { title: "  Accessories", path: "/android" },
         ],
       },
-   
-
-
-
-
-
-
-
-
 
       {
         title: "Exothermik Welding",
@@ -139,7 +94,6 @@ const menuData = [
           { title: " Cable to Steel Surface", path: "/android" },
           { title: " Stud to Steel Surface ", path: "/android" },
           { title: "  Welding Powders  ", path: "/android" },
-       
         ],
       },
     ],
@@ -148,18 +102,31 @@ const menuData = [
     title: "Technical Services",
     submenu: [
       {
-        title: "Web Development",
-        links: [
-          { title: "Frontend Development", path: "/frontend" },
-          { title: "Backend Development", path: "/backend" },
-        ],
+        title: "Earth Electrode System",
+
+        img: "https://images.unsplash.com/photo-1610028290816-5d937a395a49?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        desc: "To complement our highly successful material supply business, we also offer a complete Electrical Earthing Design Service.",
+        links: [{ title: "Find Out More", path: "/" }],
       },
       {
-        title: "Mobile Development",
-        links: [
-          { title: "iOS Development", path: "/ios" },
-          { title: "Android Development", path: "/android" },
-        ],
+        title: "Lightning Protection System",
+        img: "https://plus.unsplash.com/premium_photo-1664304434345-8b8e6b512532?q=80&w=1804&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        desc: "To complement our highly successful material supply business, we also offer a complete Electrical Earthing Design Service.",
+        links: [{ title: "Find Out More", path: "/" }],
+      },
+      {
+        title: "Earthing Design System",
+
+        img: "https://plus.unsplash.com/premium_photo-1677643917895-09dbeb21c834?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        desc: "To complement our highly successful material supply business, we also offer a complete Electrical Earthing Design Service.",
+
+        links: [{ title: "Find Out More", path: "/" }],
+      },
+      {
+        title: "G78 Mobile Phone Base Stations",
+        img: "https://plus.unsplash.com/premium_photo-1664693751181-41a6f6c347b5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fG1vYmlsZSUyMHBob25lJTIwYmFzZSUyMHN5c3llbXxlbnwwfHwwfHx8MA%3D%3D",
+        desc: "To complement our highly successful material supply business, we also offer a complete Electrical Earthing Design Service.",
+        links: [{ title: "Find Out More", path: "/" }],
       },
     ],
   },
@@ -169,7 +136,7 @@ const menuData = [
   },
   {
     title: "Projects",
-    path: "/about",
+    path: "/Projects",
   },
   {
     title: "Contact",

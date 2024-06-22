@@ -32,6 +32,7 @@ export default function Home() {
       <AboutSectionTwo />
       <Testimonials />
       {/* <Pricing /> */}
+      
       <Contact />
     </>
   );
