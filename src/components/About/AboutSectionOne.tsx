@@ -75,9 +75,7 @@ const AboutSectionOne = () => {
                 <li>
                 <img src="/images/ourClients/17.jpeg" alt="cleints" />
                 </li>
-                <li>
-                <img src="/images/ourClients/7.jpg" alt="cleints" />
-                </li>
+
               </ul>
             </div>
           </div>

@@ -17,6 +17,7 @@ const menuData = [
           { title: "  Lattice Mats", path: "/backend" },
           { title: "  Earth Bars", path: "/backend" },
           { title: "    'U' Bolt Clamps ", path: "/backend" },
+          { title: "Ecopotential Boundry", path: "/backend" },
         ],
       },
 
@@ -51,35 +52,34 @@ const menuData = [
       },
 
       {
-        title: "Fastners & Fixings",
+        title: "Cable Trags",
         links: [
-          { title: " Security Fixings", path: "/ios" },
-          { title: "Hexagon Head Set Screws", path: "/android" },
-          { title: "Hexagon Nuts", path: "/android" },
-          { title: "Spring Washers", path: "/android" },
-          { title: "Countersunk Wood Screw", path: "/android" },
-          { title: "Tinned Copper Tapes", path: "/android" },
-          { title: " Round Head Wood Screws ", path: "/android" },
-          { title: "  Rail", path: "/android" },
-          { title: " Plastic Wall Plugs", path: "/android" },
+          { title: " abcd", path: "/ios" },
+          { title: " abcd", path: "/ios" },
+          { title: " abcd", path: "/ios" },
+          { title: " abcd", path: "/ios" },
+          { title: " abcd", path: "/ios" },
+          { title: " abcd", path: "/ios" },
+          { title: " abcd", path: "/ios" },
+        
         ],
       },
-      {
-        title: "Surge Protection",
-        links: [
-          { title: " Mains Distribution Protection", path: "/ios" },
-          { title: " Mains, Single Circuit Protection", path: "/android" },
-          { title: "Data Line Protection", path: "/android" },
-          { title: "Telecom Protection", path: "/android" },
-          { title: "   Photovoltaic Protection", path: "/android" },
-          { title: "   Equipotential Bonding", path: "/android" },
-          { title: "  Low Voltage Type 2 ", path: "/android" },
-          { title: " Countersunk Machine Screws", path: "/android" },
-          { title: "  SPA Range", path: "/android" },
-          { title: "     Mains Socket Strips", path: "/android" },
-          { title: "  Accessories", path: "/android" },
-        ],
-      },
+      // {
+      //   title: "Surge Protection",
+      //   links: [
+      //     { title: " Mains Distribution Protection", path: "/ios" },
+      //     { title: " Mains, Single Circuit Protection", path: "/android" },
+      //     { title: "Data Line Protection", path: "/android" },
+      //     { title: "Telecom Protection", path: "/android" },
+      //     { title: "   Photovoltaic Protection", path: "/android" },
+      //     { title: "   Equipotential Bonding", path: "/android" },
+      //     { title: "  Low Voltage Type 2 ", path: "/android" },
+      //     { title: " Countersunk Machine Screws", path: "/android" },
+      //     { title: "  SPA Range", path: "/android" },
+      //     { title: "     Mains Socket Strips", path: "/android" },
+      //     { title: "  Accessories", path: "/android" },
+      //   ],
+      // },
 
       {
         title: "Exothermik Welding",
@@ -94,6 +94,20 @@ const menuData = [
           { title: " Cable to Steel Surface", path: "/android" },
           { title: " Stud to Steel Surface ", path: "/android" },
           { title: "  Welding Powders  ", path: "/android" },
+        ],
+      },
+      {
+        title: "Fastners & Fixings",
+        links: [
+          { title: " Security Fixings", path: "/ios" },
+          { title: "Hexagon Head Set Screws", path: "/android" },
+          { title: "Hexagon Nuts", path: "/android" },
+          { title: "Spring Washers", path: "/android" },
+          { title: "Countersunk Wood Screw", path: "/android" },
+          { title: "Tinned Copper Tapes", path: "/android" },
+          { title: " Round Head Wood Screws ", path: "/android" },
+          { title: "  Rail", path: "/android" },
+          { title: " Plastic Wall Plugs", path: "/android" },
         ],
       },
     ],
@@ -135,7 +149,7 @@ const menuData = [
     path: "/about",
   },
   {
-    title: "Projects",
+    title: "Clients & Projects",
     path: "/Projects",
   },
   {

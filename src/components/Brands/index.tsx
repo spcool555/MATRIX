@@ -4,6 +4,7 @@ import './Brands.css'
 
 const Brands = () => {
   return (
+    <>
     <section className="pt-16">
       <div className="container ">
         <div className="-mx-4 flex flex-wrap">
@@ -19,6 +20,8 @@ const Brands = () => {
         </div>
       </div>
     </section>
+    
+    </>
   );
 };
 
