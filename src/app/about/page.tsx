@@ -15,19 +15,15 @@ const AboutPage = () => {
   return (
     <>
       <section className="ab pt-16">
-        <div className="container ">
+        <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="brnds flex flex-wrap items-center justify-center rounded-sm bg-gray-light px-8 py-8 dark:bg-gray-dark sm:px-10 md:px-[50px] md:py-[40px] xl:p-[50px] 2xl:px-[70px] 2xl:py-[60px]">
                 <div className="hh">
-                  <h1>Can we help?</h1>
+                  <h1>About Us</h1>
                 </div>
                 <div className="pp">
-                  <p>
-                    Our friendly team are on hand to answer any questions you
-                    might have.
-                  </p>
-                  <p>+44 (0)115 927 1721 or info@an-wallis.com</p>
+                 
                 </div>
               </div>
             </div>
@@ -46,16 +42,15 @@ const AboutPage = () => {
                 <img
                   src="https://www.an-wallis.co.uk/wp-content/uploads/2018/03/about-image.jpg"
                   alt="about image"
-
                   // className="drop-shadow-three dark:hidden dark:drop-shadow-none"
                 />
-
+                {/* Uncomment below if you have a dark mode image */}
                 {/* <Image
-                src="/images/about/about-image-2-dark.svg"
-                alt="about image"
-                fill
-                className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
-              /> */}
+                  src="/images/about/about-image-2-dark.svg"
+                  alt="about image"
+                  fill
+                  className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
+                /> */}
               </div>
               <p>A picture of our HQ in Nottingham, United Kingdom</p>
             </div>
@@ -78,31 +73,22 @@ const AboutPage = () => {
                   <br />
                   <div className="grid auto-cols-max grid-flow-col gap-4">
                     <div>
-                      <ul className="... list-inside list-disc">
+                      <ul className="list-inside list-disc">
                         <li>The Grand Prix Circuit in Abu Dhabi</li>
                         <li>Mosques in Libya, Bahrain and Kuwait</li>
-                        <li>
-                          Telecommunication Towers in Nigeria
-                        </li>
+                        <li>Telecommunication Towers in Nigeria</li>
                         <li>Airports in UAE, Oman and Europe</li>
-                        <li>
-                          Substations in Malaysia, Dubai
-                        </li>
+                        <li>Substations in Malaysia, Dubai</li>
                         <hr />
                         <br />
                         <li>Hospitals in Jordan, Kuwait and Qatar</li>
-                        <li>
-                          Petrochemical Projects in Saudi Arabia
-                        </li>
+                        <li>Petrochemical Projects in Saudi Arabia</li>
                         <li>Rail Installations in Hong Kong and the UK</li>
-                        <li>
-                          The world’s largest Women’s University 
-                        </li>
+                        <li>The world’s largest Women’s University</li>
                         <li>The Presidential Palace in Abu Dhabi</li>
                       </ul>
                       <hr />
                     </div>
-                    <div></div>
                   </div>
                 </div>
               </div>
@@ -112,14 +98,16 @@ const AboutPage = () => {
 
         <div></div>
         <center>
-          <h3>
-            These are just a few projects that are benefitting from lifelong
-            protection through the use of Matrix products.
-          </h3>
-          <br />
-          <br />
+         <hr />
 
-          <h2 className="font-sans text-xl">EARTHING SYSTEM DESIGNS FROM THE EXPERTS</h2>
+        
+
+
+          <center> 
+       <h2 className="m-4 text-4xl font-bold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-4xl dark:text-white">  EARTHING SYSTEM DESIGNS FROM THE EXPERTS</h2>
+       </center>
+
+
           <br />
           <br />
           <p>
@@ -135,7 +123,75 @@ const AboutPage = () => {
             International standards.
           </p>
         </center>
+        <div className="relative mt-10">
+          <iframe
+            className="md:w-520 md:h-315 h-56 w-full"
+            src="https://www.youtube.com/embed/tUu7ZX_uNsY?si=7XcLBFp3tg77YIEG"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="autoplay;"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
+
+        <hr />
+
+        <center className="mt-16">
+        <center className="mb-20">
+   
+       <h1 className="mb-4 text-4xl font-bold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-4xl dark:text-white">ACCREDITATIONS</h1>
+      
+
+            </center>
+          <div className="flex justify-between">
+        
+            <div className="w-1/2">
+              <p>
+                We offer design, site support and supervision services for
+                Earthing & Lightning Protection in accordance with BS EN 62305.
+                Design of Earthing systems to BS 7430:2011+A1:2015 and Local
+                Codes of Practice, Soil Resistivity Tests & Reports, Earth
+                Resistance Tests & Reports, Inspection and supervision on sites
+                for installation of LPS.
+              </p>
+              <p className="mt-8">
+                Wallis work internationally with consultants, contractors and
+                power engineering concerns either directly and through our
+                comprehensive network of distributors.
+              </p>
+            </div>
+            <div className="w-1/2">
+              <p>
+                Our products are tested to and in compliance with BS EN 62561
+                Lightning Protection System Components, BS EN 62305 Protection
+                against Lightning and BS 7430:2011+A1:2015 Code of Practice for
+                Protective Earthing of Electrical Installations
+              </p>
+
+              <p className="mt-14">
+              A.N. Wallis is accredited with BSI ISO 9001:2015 & BSI ISO 45001:2018 (Copies of which can be obtained upon request).
+              </p>
+            </div>
+          </div>
+        </center>
       </section>
+      <section className="">
+      <div className="container ">
+        <div className="-mx-4 flex flex-wrap">
+          <div className="w-full px-4">
+            <div className="flex flex-wrap items-center justify-center rounded-sm bg-gray-light px-8 py-8 dark:bg-gray-dark sm:px-10 md:px-[50px] md:py-[40px] xl:p-[50px] 2xl:px-[70px] 2xl:py-[60px] brnds">
+         <div className="hh"><h1>Can we help?</h1></div>
+         <div className="pp">
+          <p>Our friendly team are on hand to answer any questions you might have.</p>
+          <p>+44 (0)115 927 1721 or info@an-wallis.com</p>
+         </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     </>
   );
 };
