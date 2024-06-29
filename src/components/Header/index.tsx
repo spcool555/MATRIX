@@ -171,7 +171,7 @@ const Header = () => {
                                                   </div>
                                                 )}
                                                 <Link
-                                                  href={submenuItem.title}
+                                                  href={submenuItem.path}
                                                   className="block py-2 text-sm text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
                                                 >
                                                   {submenuItem.title}
