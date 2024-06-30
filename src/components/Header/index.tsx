@@ -5,7 +5,8 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 const Header = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   const [sticky, setSticky] = useState(false);
@@ -36,6 +37,19 @@ const Header = () => {
   };
 
   const usePathName = usePathname();
+  const [quoteItems, setQuoteItems] = useState([]);
+  const totalProducts = quoteItems.length;
+
+  useEffect(() => {
+    UpdateCart();
+  }, []);
+  
+
+ const UpdateCart = () =>{
+  const storedQuoteItems = JSON.parse(localStorage.getItem('quoteItems')) || [];
+  setQuoteItems(storedQuoteItems);
+}
+
 
   return (
     <>
@@ -193,13 +207,32 @@ const Header = () => {
                 </nav>
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
-                <Link
-                  href="/signup"
-                  className="ease-in-up hidden rounded-sm bg-primary px-8 py-3 text-base font-medium text-white shadow-btn transition duration-300 hover:bg-opacity-90 hover:shadow-btn-hover md:block md:px-9 lg:px-6 xl:px-9"
-                >
-                  Download Catalogue
-                </Link>
+
+
+              
+            {quoteItems.length > 0 && (
+  <div className="">
+  
+    <Link 
+      href="/quote"
+      className="w-full rounded-full bg-blue-600 px-4 mx-5 py-2 font-bold text-white text-center hover:bg-blue-500 dark:bg-blue-700 dark:hover:bg-blue-600"
+    >
+      <div className="relative inline-block">
+        <FontAwesomeIcon icon={faShoppingCart} />
+        <span className="absolute top-0 right-0 inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-red-100 bg-red-600 rounded-full">
+          {totalProducts}
+        </span>
+      </div>
+    </Link>
+  </div>
+)}
                 <div>
+
+
+
+
+
+                  
                   <ThemeToggler />
                 </div>
               </div>

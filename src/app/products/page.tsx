@@ -5,24 +5,24 @@ import { useRouter, useSearchParams } from 'next/navigation';
 const earthrod = [
   {
     id: 1,
-    name: "Sole Elegance",
+    name: "Copperbond Earth Rods",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$10",
-    imageUrl: "https://readymadeui.com/images/product9.webp"
+    imageUrl: "https://www.an-wallis.co.uk/wp-content/uploads/2018/07/Copperbond-Earth-Rods-1-282x300.jpg"
   },
   {
     id: 2,
-    name: "Urban Sneakers",
+    name: "Solid Copper Earth Rod",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$12",
-    imageUrl: "https://readymadeui.com/images/product10.webp"
+    imageUrl: "https://www.an-wallis.co.uk/wp-content/uploads/2024/03/ERC-Image.jpg"
   },
   {
     id: 3,
-    name: "Velvet Boots",
+    name: "Tinned Solid Copper Earth Rods",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
-    imageUrl: "https://readymadeui.com/images/product11.webp"
+    imageUrl: "https://www.an-wallis.co.uk/wp-content/uploads/2019/06/Tinned-Solid-Copper-Earth-Rods200.jpg"
   },
 ];
 
@@ -32,42 +32,42 @@ const earthrodseals = [
     name: "Summit Hiking",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$12",
-    imageUrl: "https://readymadeui.com/images/product12.webp"
+    imageUrl: "https://www.an-wallis.co.uk/wp-content/uploads/2018/06/WES0044.jpg"
   },
 ];
 
 const earthinspectionhousing = [
   {
     id: 5,
-    name: "Zenith Glow",
+    name: "Heavy Duty Earth Inspection Housings",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$15",
-    imageUrl: "https://readymadeui.com/images/product13.webp"
+    imageUrl: "https://www.an-wallis.co.uk/wp-content/uploads/2018/10/EPP001W-scaled.jpg"
   },
   {
     id: 6,
-    name: "Echo Elegance",
+    name: "Light Duty Earth Inspection Housing",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
-    imageUrl: "https://readymadeui.com/images/product14.webp"
+    imageUrl: "https://www.an-wallis.co.uk/wp-content/uploads/2018/10/Light-Duty-Earth-Inspection-Housings.jpg"
   },
 
 ];
 
-const airrod = [
+const airrods = [
   {
     id: 7,
-    name: "Pumps",
+    name: "Taper Pointed Air Rods",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
-    imageUrl: "https://readymadeui.com/images/product15.webp"
+    imageUrl: "https://www.an-wallis.co.uk/wp-content/uploads/2018/10/Taper-Pointed-Air-Rods.jpg"
   },
   {
     id: 8,
-    name: "Blaze Burst",
+    name: "Air Rods",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
-    imageUrl: "https://readymadeui.com/images/product10.webp"
+    imageUrl: "https://www.an-wallis.co.uk/wp-content/uploads/2018/11/Air-Rods.jpg"
   },
 ];
 
@@ -83,9 +83,11 @@ const Products = () => {
   } else if (category === 'earthrodseal') {
     products = earthrodseals;
   } else if (category === 'airrod') {
-    products = airrod;
+    products = airrods;
   } else if (category === 'earthinspectionhousing') {
     products = earthinspectionhousing;
+  }else if (category === 'airrods') {
+    products = airrods;
   }
 
   const handleProductClick = (productId) => {
@@ -104,7 +106,7 @@ const Products = () => {
       <div>
         <h3 className="text-lg font-extrabold text-gray-800">{product.name}</h3>
         <p className="text-gray-600 text-sm mt-2">{product.description}</p>
-        <h4 className="text-lg text-gray-800 font-bold mt-4">{product.price}</h4>
+        {/* <h4 className="text-lg text-gray-800 font-bold mt-4">{product.price}</h4> */}
       </div>
     </a>
   );

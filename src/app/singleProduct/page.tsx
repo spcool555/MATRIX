@@ -7,25 +7,70 @@ import Swal from 'sweetalert2';
 const products = [
   {
     id: 1,
-    name: "Sole Elegance",
+    name: "Copperbond Earth Rods",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    price: "10",
-    imageUrl: "https://readymadeui.com/images/product9.webp",
+    price: "$10",
+    imageUrl: "https://www.an-wallis.co.uk/wp-content/uploads/2018/07/Copperbond-Earth-Rods-1-282x300.jpg",
+    category: "earthrod"
   },
   {
     id: 2,
-    name: "Urban Sneakers",
+    name: "Solid Copper Earth Rod",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    price: "12",
-    imageUrl: "https://readymadeui.com/images/product10.webp",
+    price: "$12",
+    imageUrl: "https://www.an-wallis.co.uk/wp-content/uploads/2024/03/ERC-Image.jpg",
+    category: "earthrod"
   },
   {
     id: 3,
-    name: "Velvet Boots",
+    name: "Tinned Solid Copper Earth Rods",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    price: "14",
-    imageUrl: "https://readymadeui.com/images/product11.webp",
+    price: "$14",
+    imageUrl: "https://www.an-wallis.co.uk/wp-content/uploads/2019/06/Tinned-Solid-Copper-Earth-Rods200.jpg",
+    category: "earthrod"
   },
+  {
+    id: 4,
+    name: "Summit Hiking",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$12",
+    imageUrl: "https://www.an-wallis.co.uk/wp-content/uploads/2018/06/WES0044.jpg",
+    category: "earthrodseals"
+  },
+  {
+    id: 5,
+    name: "Heavy Duty Earth Inspection Housings",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$15",
+    imageUrl: "https://www.an-wallis.co.uk/wp-content/uploads/2018/10/EPP001W-scaled.jpg",
+     category: "earthinspectionhousing"
+  },
+  {
+    id: 6,
+    name: "Light Duty Earth Inspection Housing",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "https://www.an-wallis.co.uk/wp-content/uploads/2018/10/Light-Duty-Earth-Inspection-Housings.jpg",
+       category: "earthinspectionhousing"
+  },
+
+  {
+    id: 7,
+    name: "Taper Pointed Air Rods",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "https://www.an-wallis.co.uk/wp-content/uploads/2018/10/Taper-Pointed-Air-Rods.jpg",
+    category: "airrods"
+  },
+  {
+    id: 8,
+    name: "Air Rods",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "https://www.an-wallis.co.uk/wp-content/uploads/2018/11/Air-Rods.jpg",
+    category: "airrods"
+  },
+
 ];
 
 const SingleProduct = () => {
@@ -34,9 +79,14 @@ const SingleProduct = () => {
   const [quoteItems, setQuoteItems] = useState([]);
 
   useEffect(() => {
-    const storedQuoteItems = JSON.parse(localStorage.getItem('quoteItems')) || [];
-    setQuoteItems(storedQuoteItems);
+    updateCart();
   }, []);
+
+
+const updateCart =()=>{
+  const storedQuoteItems = JSON.parse(localStorage.getItem('quoteItems')) || [];
+    setQuoteItems(storedQuoteItems);
+} 
 
   const product = products.find((item) => item.id.toString() === productId);
 
@@ -46,7 +96,7 @@ const SingleProduct = () => {
       id: product.id,
       name: product.name,
       price: product.price,
-      category: 'earthrod', // assuming category is always 'earthrod' in this case
+      category: product.category,
     };
 
     // Check if the item is already in the quote
@@ -56,6 +106,7 @@ const SingleProduct = () => {
       const updatedQuoteItems = [...storedQuoteItems, newQuoteItem];
       localStorage.setItem('quoteItems', JSON.stringify(updatedQuoteItems));
       setQuoteItems(updatedQuoteItems);
+     
       Swal.fire({
         title: "Added to Quote",
         text: `${product.name} has been added to your quote.`,
@@ -64,6 +115,8 @@ const SingleProduct = () => {
         timerProgressBar: true, // Progress bar for timer
         showConfirmButton: false // Hide the "OK" button, since you may want to close the alert automatically
       });
+      updateCart();
+      location.reload();
     } else {
       Swal.fire({
         title: "Already in Quote",

@@ -22,6 +22,7 @@ const Quote = () => {
     const updatedQuoteItems = quoteItems.filter(item => item.id !== id);
     localStorage.setItem('quoteItems', JSON.stringify(updatedQuoteItems));
     setQuoteItems(updatedQuoteItems);
+    location.reload();
   };
 
   return (
@@ -182,7 +183,7 @@ const Quote = () => {
                   </div>
                   <div className="text-center">
                     <button type="submit" className="w-full bg-blue-800 text-white px-6 py-3 font-xl rounded-md sm:mb-0">
-                      Send Message
+                      Send Enquiry
                     </button>
                   </div>
                 </form>
