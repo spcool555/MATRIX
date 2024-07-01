@@ -2,13 +2,13 @@
   "name": "startup-nextjs-template",
   "version": "2.0.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "preview": "next start",
-    "lint": "next lint"
-  },
+"scripts": {
+  "dev": "next dev -H 0.0.0.0",
+  "build": "next build",
+  "start": "next start",
+  "preview": "next start",
+  "lint": "next lint"
+},
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
