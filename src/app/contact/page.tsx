@@ -1,6 +1,6 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import Contact from "@/components/Contact";
-import "../../../../matrix/src/components/Brands/Brands.css";
+import './Brands.css'
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
