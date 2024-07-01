@@ -3,13 +3,13 @@
   "version": "2.0.0",
   "private": true,
 
-  "scripts": {
-    "dev": "HOST=0.0.0.0 PORT=3000 next dev",
-    "build": "next build",
-    "start": "next start",
-    "preview": "HOST=0.0.0.0 PORT=3000 next start",
-    "lint": "next lint"
-  },
+ "scripts": {
+  "dev": "HOST=0.0.0.0 PORT=3000 next dev",
+  "build": "next build",
+  "start": "next start",
+  "preview": "HOST=0.0.0.0 PORT=3000 next start",
+  "lint": "next lint"
+},
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
