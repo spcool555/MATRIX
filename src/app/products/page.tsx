@@ -1,4 +1,5 @@
 'use client'
+import { Suspense } from 'react';
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import { useRouter, useSearchParams } from 'next/navigation';
 
@@ -51,7 +52,6 @@ const earthinspectionhousing = [
     price: "$14",
     imageUrl: "https://www.an-wallis.co.uk/wp-content/uploads/2018/10/Light-Duty-Earth-Inspection-Housings.jpg"
   },
-
 ];
 
 const airrods = [
@@ -86,13 +86,14 @@ const Products = () => {
     products = airrods;
   } else if (category === 'earthinspectionhousing') {
     products = earthinspectionhousing;
-  }else if (category === 'airrods') {
+  } else if (category === 'airrods') {
     products = airrods;
   }
 
   const handleProductClick = (productId) => {
     router.push(`/singleProduct?category=${category}&id=${productId}`);
   };
+
   const ProductCard = ({ product }) => (
     <a onClick={() => handleProductClick(product.id)} className="bg-white rounded-2xl p-5 cursor-pointer hover:-translate-y-2 transition-all relative">
       <div className="bg-gray-100 w-10 h-10 flex items-center justify-center rounded-full cursor-pointer absolute top-4 right-4">
@@ -132,4 +133,10 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default function SuspenseWrapper() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <Products />
+    </Suspense>
+  );
+}

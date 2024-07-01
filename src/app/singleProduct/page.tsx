@@ -1,9 +1,11 @@
 'use client';
+import { Suspense } from 'react';
 import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import Link from "next/link";
 import Swal from 'sweetalert2';
+
 const products = [
   {
     id: 1,
@@ -206,4 +208,11 @@ const updateCart =()=>{
   );
 };
 
-export default SingleProduct;
+export default function SuspenseWrapper() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <SingleProduct />
+    </Suspense>
+  );
+}
+
