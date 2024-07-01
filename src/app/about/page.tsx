@@ -1,7 +1,7 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Breadcrumb from "@/components/Common/Breadcrumb";
-import "../../../../matrix/src/components/Brands/Brands.css";
+import './Brands.css'
 import { Metadata } from "next";
 import Image from "next/image";
 
