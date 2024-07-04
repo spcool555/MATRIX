@@ -9,7 +9,7 @@ const Features = () => {
         <div className="container">
           <SectionTitle
             title="Our Products Range"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            paragraph="Matrix Incorporation is a well-reputed organisation located in Secundrabad, Telangana. Our company brings an incredible change in the products related"
             center
           />
 

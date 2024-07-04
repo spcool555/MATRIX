@@ -13,15 +13,16 @@ const NewsLatterBox3 = () => {
 
       <div>
         <p>
-        A. N. Wallis & Co Ltd
-Greasley Street, Bulwell
-Nottingham, NG6 8NG
+        #4-3-2/3/A Janta weight bridge
+Chincholi Road, Tandur (V)
+Tandur (M)
+Telangana State India
         </p> <br />
         <a href="#">
     
-        info@an-wallis.com
+        info@matrix.com
         </a><br />
-        <p>    +44 (0) 115 927 1721</p>
+        <p>    +91-7569815748</p>
         <br />
       </div>
 

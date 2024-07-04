@@ -40,7 +40,7 @@ const AboutPage = () => {
                 data-wow-delay=".15s"
               >
                 <img
-                  src="https://www.an-wallis.co.uk/wp-content/uploads/2018/03/about-image.jpg"
+                  src="./images/aboutus.jpeg"
                   alt="about image"
                   // className="drop-shadow-three dark:hidden dark:drop-shadow-none"
                 />
@@ -52,13 +52,13 @@ const AboutPage = () => {
                   className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
                 /> */}
               </div>
-              <p>A picture of our HQ in Nottingham, United Kingdom</p>
+             
             </div>
             <div className="w-full px-4 lg:w-1/2">
               <div className="max-w-[470px]">
                 <div className="mb-9">
                   <h2 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                    Matrix & Co Ltd established in 1946 is a world-leading
+                    <b style={{color:'#F6A705'}}> MATRIX INCORPORATION </b>  {' '}  in 1946 is a world-leading
                     manufacturer of earthing, lightning protection, exothermic
                     welding and surge protection products. We also offer expert
                     design services for earthing & lightning systems.
