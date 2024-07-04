@@ -26,8 +26,15 @@ const Footer = () => {
                     height={30}
                   />
                 </Link>
+                <p className="mb-1 text-base leading-relaxed text-body-color dark:text-body-color-dark" >REGISTERED ADDRESS</p>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                A. N. Wallis & Co Ltd. Company Registration Number: 3972865 Privacy Policy Modern Slavery Policy Terms & Conditions
+                #20-4-529/5&amp;6 Chowmohalla Palace
+Hyderabad-500002
+Telangana State India
+Mob No.+91-7780599423 / +91-9052729776
+Skype / WhatsApp / wechat: +91-9052729776
+Tel No. +91-40-42607464
+Fax No. +91-40-42607464
                 </p>
                 <div className="flex items-center">
                   <a

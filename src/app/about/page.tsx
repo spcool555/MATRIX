@@ -170,7 +170,7 @@ const AboutPage = () => {
               </p>
 
               <p className="mt-14">
-              A.N. Wallis is accredited with BSI ISO 9001:2015 & BSI ISO 45001:2018 (Copies of which can be obtained upon request).
+              MATCO is accredited with BSI ISO 9001:2015 & BSI ISO 45001:2018 (Copies of which can be obtained upon request).
               </p>
             </div>
           </div>

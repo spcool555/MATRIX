@@ -82,11 +82,11 @@ const Projectss = () => {
         <div style={{ margin: "60px" }}>
           <center>
             <p style={{ fontStyle: "oblique", fontWeight: "bold" }}>
-              A.N. Wallis has worked with and satisfied many international clients
+              MATCO has worked with and satisfied many international clients
               including companies such as ABB, Siemens, Toshiba, Mitsubishi, BP
               and Shell as well as specialist Earthing & Lightning protection
               installers, electrical engineers and contractors. These companies
-              install A.N. Wallis’s products for and on behalf of consultants and
+              install MATCO’s products for and on behalf of consultants and
               clients. Below is a small selection of projects where Wallis
               materials have been installed and utilised (a full project list is
               available on request).
@@ -113,7 +113,7 @@ const Projectss = () => {
       <h1 className="text-2xl font-bold mb-4">Our Projects</h1>
       </center>
       <div>
-      <center>  <div style={{backgroundColor:'blue', color:'white', display:'inline-block'}}> Middle East</div></center>
+      <center>  <div style={{backgroundColor:'white', color:'#FAA603', display:'inline-block', fontSize:'43px'}}>KSA</div></center>
      
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {images.map((image, index) => (
@@ -133,8 +133,8 @@ const Projectss = () => {
       </div>
       <div>
         
-    <center>  <div style={{backgroundColor:'blue', color:'white', display:'inline-block'}}> Far East</div></center>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+      <center>  <div style={{backgroundColor:'white', color:'#FAA603', display:'inline-block', fontSize:'43px'}}>KUWAIT</div></center>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {images.map((image, index) => (
           <div key={index} className="p-4">
             <img
@@ -151,8 +151,27 @@ const Projectss = () => {
       
       </div>
       <div>
-      <center>  <div style={{backgroundColor:'blue', color:'white', display:'inline-block'}}>Rest Of The World</div></center>
-     
+      <center>  <div style={{backgroundColor:'white', color:'#FAA603', display:'inline-block', fontSize:'43px'}}>OMAN</div></center>
+  
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        {images2.map((image, index) => (
+          <div key={index} className="p-4">
+            <img
+              src={image.url}
+              alt={image.alt}
+              className="object-cover w-full h-64 sm:h-48 md:h-64 rounded-lg shadow-md"
+            />
+              <div className="mt-2 text-center">
+            <p className="text-sm text-gray-600">{image.description}</p>
+          </div>
+          </div>
+        ))}
+      </div>
+      
+      </div>
+      <div>
+      <center>  <div style={{backgroundColor:'white', color:'#FAA603', display:'inline-block', fontSize:'43px'}}>UAE</div></center>
+  
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {images2.map((image, index) => (
           <div key={index} className="p-4">
