@@ -4,7 +4,7 @@ const featuresData: Feature[] = [
   {
     id: 1,
     icon: (
-      <img src="https://www.an-wallis.co.uk/wp-content/uploads/2018/05/Conductors.jpg" alt="" />
+      <img src="https://uni-fibercable.com/d/file/CCX.jpg" alt="" />
     ),
     title: "Conductors",
     paragraph:
@@ -13,7 +13,7 @@ const featuresData: Feature[] = [
   {
     id: 1,
     icon: (
-     <img src="https://www.an-wallis.co.uk/wp-content/uploads/2018/05/Copperbond-Earth-Rods-282x300.jpg" alt="" />
+     <img src="https://www.raychemrpg.com/assets/images/gallery/HzEzaZ5Yrx9F9zDpqXkbew8ThQl1oD.jpg" alt="" />
     ),
     title: "Earthing",
     paragraph:
@@ -22,7 +22,7 @@ const featuresData: Feature[] = [
   {
     id: 1,
     icon: (
-      <img src="https://www.an-wallis.co.uk/wp-content/uploads/2018/05/moulds-300x252.jpg" alt="" />
+      <img src="https://s.alicdn.com/@sc04/kf/Hd306bcabd31f40228eaffd8f59f8f1e99.jpg_300x300.jpg" alt="" />
     ),
     title: "Exothermic Welding",
     paragraph:
@@ -31,7 +31,7 @@ const featuresData: Feature[] = [
   {
     id: 1,
     icon: (
-    <img src="https://www.an-wallis.co.uk/wp-content/uploads/2018/05/fasteners-and-fixings.jpg" alt="" />
+    <img src="https://www.pbctoday.co.uk/news/wp-content/uploads/2019/11/7-coloured-screws-white-background.png" alt="" />
     ),
     title: "Fastners & Fixings",
     paragraph:
@@ -40,7 +40,7 @@ const featuresData: Feature[] = [
   {
     id: 1,
     icon: (
-    <img src="https://www.an-wallis.co.uk/wp-content/uploads/2018/11/WSP415_III_TT-Left.jpg" alt="" />
+    <img src="https://t4.ftcdn.net/jpg/05/14/12/13/360_F_514121309_8AJ9WI8WZDxElx0cV4Jrcp0ZMrAKAFvz.jpg" alt="" />
     ),
     title: "Lightning Protection",
     paragraph:
@@ -49,7 +49,7 @@ const featuresData: Feature[] = [
   {
     id: 1,
     icon: (
-  <img src="https://www.an-wallis.co.uk/wp-content/uploads/2019/05/Taper-Pointed.jpg" alt="" />
+  <img src="https://ep-us.mersen.com/sites/mersen_us/files/2019-05/PHP_Power%20Line%20SPD%20-%20DIN-RAIL%20IEC%20TYPE%202%2B3UL%20CSA.PNG" alt="" />
     ),
     title: "Surge protection",
     paragraph:

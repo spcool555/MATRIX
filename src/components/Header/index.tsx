@@ -70,14 +70,14 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="/images/logo/logo.png"
+                  src="/images/logo/logo22.png"
                   alt="logo"
                   width={120}
                   height={20}
                   className=" dark:hidden"
                 />
                 <Image
-                  src="/images/logo/logo.png"
+                  src="/images/logo/logo22.png"
                   alt="logo"
                   width={120}
                   height={20}
