@@ -72,7 +72,27 @@ const products = [
     imageUrl: "https://www.an-wallis.co.uk/wp-content/uploads/2018/11/Air-Rods.jpg",
     category: "airrods"
   },
-
+  {
+    id: 9,
+    name: "Low resistance compound ",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/menueimages/lrc.jpeg"
+  },
+  {
+    id: 10,
+    name: "Aluminum busbar ",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/menueimages/Aluminum_busbar.png"
+  },
+  {
+    id: 11,
+    name: "tinned copper busbar type",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/menueimages/tinned copper busbar type.jpeg"
+  },
 ];
 
 const SingleProduct = () => {

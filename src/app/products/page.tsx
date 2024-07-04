@@ -2,7 +2,7 @@
 import { Suspense } from 'react';
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import { useRouter, useSearchParams } from 'next/navigation';
-
+// /images/menueimages/Aluminum_busbar.png
 const earthrod = [
   {
     id: 1,
@@ -71,6 +71,40 @@ const airrods = [
   },
 ];
 
+const lrec =[
+  {
+    id: 9,
+    name: "Low resistance compound ",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/menueimages/lrc.jpeg"
+  },
+
+  
+]
+const bat =[
+  {
+    id: 10,
+    name: "Aluminum busbar ",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/menueimages/Aluminum_busbar.png"
+  },
+
+  
+]
+const tct =[
+  {
+    id: 11,
+    name: "tinned copper busbar type",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/menueimages/tinned copper busbar type.jpeg"
+  },
+
+  
+]
+
 const Products = () => {
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -88,6 +122,12 @@ const Products = () => {
     products = earthinspectionhousing;
   } else if (category === 'airrods') {
     products = airrods;
+  }else if (category === 'bat') {
+    products = bat;
+  }else if (category === 'tct') {
+    products = tct;
+  }else if (category === 'lrec') {
+    products = lrec;
   }
 
   const handleProductClick = (productId) => {

@@ -155,10 +155,7 @@ const menuData = [
     title: "Contact",
     path: "/contact",
   },
-  {
-    title: "Catelouge",
-    path: "#",
-  },
+
 ];
 
 export default menuData;
