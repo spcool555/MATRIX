@@ -82,7 +82,7 @@ const Projectss = () => {
         <div style={{ margin: "60px" }}>
           <center>
             <p style={{ fontStyle: "oblique", fontWeight: "bold" }}>
-              MATCO has worked with and satisfied many international clients
+            <b style={{color:'#F6A705'}}>   Matrix Incorporation </b> has worked with and satisfied many international clients
               including companies such as ABB, Siemens, Toshiba, Mitsubishi, BP
               and Shell as well as specialist Earthing & Lightning protection
               installers, electrical engineers and contractors. These companies

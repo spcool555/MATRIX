@@ -50,6 +50,21 @@ const Header = () => {
   setQuoteItems(storedQuoteItems);
 }
 
+useEffect(() => {
+  const handleDocumentClick = (event) => {
+    if (!navbarOpen) return;
+    const navbarElement = document.getElementById('navbarCollapse');
+    if (!navbarElement.contains(event.target)) {
+      setNavbarOpen(false);
+    }
+  };
+
+  document.addEventListener('click', handleDocumentClick);
+
+  return () => {
+    document.removeEventListener('click', handleDocumentClick);
+  };
+}, [navbarOpen]);
 
   return (
     <>

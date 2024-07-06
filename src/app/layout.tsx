@@ -28,6 +28,7 @@ export default function RootLayout({
         <Providers>
           <Header />
           {children}
+          <WhatsAppWidget />
           <Footer />
           <ScrollToTop />
         </Providers>
@@ -36,4 +37,5 @@ export default function RootLayout({
   );
 }
 
-import { Providers } from "./providers";
+import { Providers } from "./providers";import WhatsAppWidget from "@/components/WhatsAppWidget";
+
