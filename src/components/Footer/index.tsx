@@ -221,8 +221,20 @@ Fax No. +91-40-42607464
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              Developed by{" "}
+            © Copyright {" "}
               <a
+                href="http://uideck.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-primary"
+              >
+           <span style={{color:'#F6A705'}}>   Matrix Incorporation </span> All Rights Reserved
+              </a>{" "}
+            
+            </p>
+            <p className="text text-base text-body-color dark:text-white">
+              Developed by{" "}
+              <a style={{color:'blue'}}
                 href="http://uideck.com"
                 target="_blank"
                 rel="noopener noreferrer"
