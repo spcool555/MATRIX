@@ -38,16 +38,17 @@ const Hero = () => {
         className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[30px] 2xl:pt-[95px]"
       >
  <div className="relative w-full" data-carousel="static">
-      <div className="relative h-66 overflow-hidden  md:h-96">
-        {slides.map((src, index) => (
-          <div
-            key={index}
-            className={`absolute inset-0 transition-opacity duration-700 ease-in-out ${index === activeIndex ? 'opacity-100' : 'opacity-0'}`}
-          >
-            <Image src={src} className="block w-full" alt={`Slide ${index + 1}`} />
-          </div>
-        ))}
-      </div>
+      <div className="relative h-64 md:h-96 overflow-hidden">
+  {slides.map((src, index) => (
+    <div
+      key={index}
+      className={`absolute inset-0 transition-opacity duration-700 ease-in-out ${index === activeIndex ? 'opacity-100' : 'opacity-0'}`}
+    >
+      <Image src={src} className="block w-full h-full object-fit" alt={`Slide ${index + 1}`} />
+    </div>
+  ))}
+</div>
+
       <div className="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse bottom-5 left-1/2">
         {slides.map((_, index) => (
           <button
