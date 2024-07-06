@@ -2,28 +2,28 @@
 import { Suspense } from 'react';
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import { useRouter, useSearchParams } from 'next/navigation';
-// /images/menueimages/Aluminum_busbar.png
+
 const earthrod = [
   {
     id: 1,
     name: "Copperbond Earth Rods",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$10",
-    imageUrl: "https://www.an-wallis.co.uk/wp-content/uploads/2018/07/Copperbond-Earth-Rods-1-282x300.jpg"
+    imageUrl: "/images/products/earthRod/copper-bonded-ul-earthing-rod.png"
   },
   {
     id: 2,
     name: "Solid Copper Earth Rod",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$12",
-    imageUrl: "https://www.an-wallis.co.uk/wp-content/uploads/2024/03/ERC-Image.jpg"
+    imageUrl: "/images/products/earthRod/solid-copper-earth-rods-matrix.png"
   },
   {
     id: 3,
     name: "Tinned Solid Copper Earth Rods",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
-    imageUrl: "https://www.an-wallis.co.uk/wp-content/uploads/2019/06/Tinned-Solid-Copper-Earth-Rods200.jpg"
+    imageUrl: "/images/products/earthRod/tscer.png"
   },
 ];
 
@@ -33,7 +33,7 @@ const earthrodseals = [
     name: "Summit Hiking",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$12",
-    imageUrl: "https://www.an-wallis.co.uk/wp-content/uploads/2018/06/WES0044.jpg"
+    imageUrl: "/images/products/earthRod/summit_hikking.png"
   },
 ];
 
@@ -43,14 +43,14 @@ const earthinspectionhousing = [
     name: "Heavy Duty Earth Inspection Housings",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$15",
-    imageUrl: "https://www.an-wallis.co.uk/wp-content/uploads/2018/10/EPP001W-scaled.jpg"
+    imageUrl: "/images/products/earthRod/ssss.png"
   },
   {
     id: 6,
     name: "Light Duty Earth Inspection Housing",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
-    imageUrl: "https://www.an-wallis.co.uk/wp-content/uploads/2018/10/Light-Duty-Earth-Inspection-Housings.jpg"
+    imageUrl: "/images/products/earthRod/ets-cable-components_plastic-inspection-pits-earth-bars-removebg-preview.png"
   },
 ];
 
@@ -60,14 +60,14 @@ const airrods = [
     name: "Taper Pointed Air Rods",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
-    imageUrl: "https://www.an-wallis.co.uk/wp-content/uploads/2018/10/Taper-Pointed-Air-Rods.jpg"
+    imageUrl: "/images/products/earthRod/airRod.png"
   },
   {
     id: 8,
     name: "Air Rods",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
-    imageUrl: "https://www.an-wallis.co.uk/wp-content/uploads/2018/11/Air-Rods.jpg"
+    imageUrl: "/images/products/earthRod/airRod2.png"
   },
 ];
 
