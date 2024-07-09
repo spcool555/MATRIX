@@ -33,6 +33,31 @@ const products = [
   },
   {
     id: 4,
+    name: "Stainless Steel Earth Rods",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/sser.png",
+    category: "earthrod"
+  },
+  {
+    id: 5,
+    name: "Galvanised Steel Earth Rods Set",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/gsers.png",
+    category: "earthrod"
+  },
+  {
+    id: 6,
+    name: "Nickel Plated Solid Copper Earth Rods",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
+  },
+
+  {
+    id: 7,
     name: "Summit Hiking",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$12",
@@ -40,7 +65,7 @@ const products = [
     category: "earthrodseals"
   },
   {
-    id: 5,
+    id: 8,
     name: "Heavy Duty Earth Inspection Housings",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$15",
@@ -48,7 +73,7 @@ const products = [
      category: "earthinspectionhousing"
   },
   {
-    id: 6,
+    id: 9,
     name: "Light Duty Earth Inspection Housing",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
@@ -57,7 +82,7 @@ const products = [
   },
 
   {
-    id: 7,
+    id: 10,
     name: "Taper Pointed Air Rods",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
@@ -65,7 +90,7 @@ const products = [
     category: "airrods"
   },
   {
-    id: 8,
+    id: 11,
     name: "Air Rods",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
@@ -73,26 +98,54 @@ const products = [
     category: "airrods"
   },
   {
-    id: 9,
+    id: 12,
     name: "Low resistance compound ",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
     imageUrl: "/images/menueimages/lrc.jpeg"
   },
   {
-    id: 10,
+    id: 13,
     name: "Aluminum busbar ",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
     imageUrl: "/images/menueimages/Aluminum_busbar.png"
   },
   {
-    id: 11,
+    id: 14,
     name: "tinned copper busbar type",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
     imageUrl: "/images/menueimages/tinned copper busbar type.jpeg"
   },
+  {
+    id: 15,
+    name: "U-Bolts Clamps - Single Plate Type For Horizontal Flat Tapes",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/uClamps/spuclamp.png"
+  },
+  {
+    id: 16,
+    name: "U-Bolts Clamps - Double Plate Type For Vertical Flat Tapes",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/uClamps/VerticalFlatTapes.png"
+  },
+  {
+    id: 17,
+    name: "U-Bolts Clamps - Double Plate Type For Vertical Standard Table",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/uClamps/spuclamp.png"
+  },
+  {
+    id: 18,
+    name: "3-Way'U'Bolt Clamp",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/uClamps/3way.png"
+  }
 ];
 
 const SingleProduct = () => {

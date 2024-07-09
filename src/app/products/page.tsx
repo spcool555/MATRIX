@@ -25,11 +25,35 @@ const earthrod = [
     price: "$14",
     imageUrl: "/images/products/earthRod/tscer.png"
   },
+  {
+    id: 4,
+    name: "Stainless Steel Earth Rods",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/sser.png",
+    category: "earthrod"
+  },
+  {
+    id: 5,
+    name: "Galvanised Steel Earth Rods Set",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/gsers.png",
+    category: "earthrod"
+  },
+  {
+    id: 6,
+    name: "Nickel Plated Solid Copper Earth Rods",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
+  },
 ];
 
 const earthrodseals = [
   {
-    id: 4,
+    id: 7,
     name: "Summit Hiking",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$12",
@@ -39,14 +63,14 @@ const earthrodseals = [
 
 const earthinspectionhousing = [
   {
-    id: 5,
+    id: 8,
     name: "Heavy Duty Earth Inspection Housings",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$15",
     imageUrl: "/images/products/earthRod/ssss.png"
   },
   {
-    id: 6,
+    id: 9,
     name: "Light Duty Earth Inspection Housing",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
@@ -56,14 +80,14 @@ const earthinspectionhousing = [
 
 const airrods = [
   {
-    id: 7,
+    id: 10,
     name: "Taper Pointed Air Rods",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
     imageUrl: "/images/products/earthRod/airRod.png"
   },
   {
-    id: 8,
+    id: 11,
     name: "Air Rods",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
@@ -73,7 +97,7 @@ const airrods = [
 
 const lrec =[
   {
-    id: 9,
+    id: 12,
     name: "Low resistance compound ",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
@@ -84,7 +108,7 @@ const lrec =[
 ]
 const bat =[
   {
-    id: 10,
+    id: 13,
     name: "Aluminum busbar ",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
@@ -95,7 +119,7 @@ const bat =[
 ]
 const tct =[
   {
-    id: 11,
+    id: 14,
     name: "tinned copper busbar type",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
@@ -103,6 +127,36 @@ const tct =[
   },
 
   
+]
+const ubc=[
+  {
+    id: 15,
+    name: "U-Bolts Clamps - Single Plate Type For Horizontal Flat Tapes",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/uClamps/spuclamp.png"
+  },
+  {
+    id: 16,
+    name: "U-Bolts Clamps - Double Plate Type For Vertical Flat Tapes",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/uClamps/VerticalFlatTapes.png"
+  },
+  {
+    id: 17,
+    name: "U-Bolts Clamps - Double Plate Type For Vertical Standard Table",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/uClamps/spuclamp.png"
+  },
+  {
+    id: 18,
+    name: "3-Way'U'Bolt Clamp",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/uClamps/3way.png"
+  }
 ]
 
 const Products = () => {
@@ -128,6 +182,8 @@ const Products = () => {
     products = tct;
   }else if (category === 'lrec') {
     products = lrec;
+  }else if (category === 'ubc') {
+    products = ubc;
   }
 
   const handleProductClick = (productId) => {
