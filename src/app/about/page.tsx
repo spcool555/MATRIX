@@ -126,7 +126,7 @@ const AboutPage = () => {
         <div className="relative mt-10">
           <iframe
             className="md:w-520 md:h-315 h-56 w-full"
-            src="https://www.youtube.com/embed/tUu7ZX_uNsY?si=7XcLBFp3tg77YIEG"
+            src="https://www.youtube.com/embed/KwEdrgAoW0c?si=ah_rekTM7iVSUAG0"            
             title="YouTube video player"
             frameBorder="0"
             allow="autoplay;"
