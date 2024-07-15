@@ -87,16 +87,16 @@ useEffect(() => {
                 <Image
                   src="/images/logo/logo22.png"
                   alt="logo"
-                  width={120}
-                  height={20}
-                  className=" dark:hidden"
+                  width={140}
+                  height={30}
+                  className=" dark:hidden "
                 />
                 <Image
                   src="/images/logo/logo22.png"
                   alt="logo"
-                  width={120}
-                  height={20}
-                  className="hidden dark:block"
+                  width={140}
+                  height={30}
+                  className="hidden dark:block log"
                 />
               </Link>
             </div>
@@ -173,7 +173,7 @@ useEffect(() => {
                                 className={`grid ${
                                   menuItem.title === "Technical Services"
                                     ? "lg:grid-cols-4"
-                                    : "lg:grid-cols-6"
+                                    : "lg:grid-cols-7"
                                 } gap-4 p-4`}
                               >
                                 {menuItem.submenu &&

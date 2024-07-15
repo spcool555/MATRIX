@@ -65,7 +65,7 @@ const AboutPage = () => {
                   </h2>
                   <hr />
                   <p>
-                    Our products are manufactured in Nottingham UK and
+                    MATCO are manufactured in Nottingham UK and
                     distributed to customers all over the world, with many being
                     used on extremely prestigious projects including:
                   </p>
@@ -140,7 +140,8 @@ const AboutPage = () => {
         <center className="mt-16">
         <center className="mb-20">
    
-       <h1 className="mb-4 text-4xl font-bold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-4xl dark:text-white">ACCREDITATIONS</h1>
+       <h1 className="mb-4 text-4xl font-bold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-4xl dark:text-white">ACCREDITATIONS
+       </h1>
       
 
             </center>
@@ -163,7 +164,7 @@ const AboutPage = () => {
             </div>
             <div className="w-1/2">
               <p>
-                Our products are tested to and in compliance with BS EN 62561
+                MATCO are tested to and in compliance with BS EN 62561
                 Lightning Protection System Components, BS EN 62305 Protection
                 against Lightning and BS 7430:2011+A1:2015 Code of Practice for
                 Protective Earthing of Electrical Installations
@@ -184,7 +185,7 @@ const AboutPage = () => {
          <div className="hh"><h1>Can we help?</h1></div>
          <div className="pp">
           <p>Our friendly team are on hand to answer any questions you might have.</p>
-          <p>+44 (0)115 927 1721 or info@an-wallis.com</p>
+          <p>+91-40-31603812 or service@matrixincorporation.com</p>
          </div>
             </div>
           </div>

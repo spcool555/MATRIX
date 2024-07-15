@@ -18,7 +18,7 @@ const AboutSectionOne = () => {
       <div className="container">
       <main className="relative font-inter antialiased">
        <center> 
-       <h1 className="mb-4 text-4xl font-bold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-4xl dark:text-white">ACCREDITATIONS</h1>
+       <h1 className="mb-4 text-4xl font-bold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-4xl dark:text-white">OUR CLIENTS</h1>
        </center>
       <div className="relative  flex flex-col justify-center overflow-hidden">
         <div className="w-full max-w-5xl mx-auto">

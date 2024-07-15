@@ -98,7 +98,7 @@ const Projectss = () => {
       <section className="map">
       <iframe
         title="Embedded Google Map"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6759.288031847163!2d74.1747574639625!3d32.10590548344264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391f2ae5019a1095%3A0x83eb709185cb9ff7!2sIndustrial%20Estate%202%2C%20Gujranwala%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2sin!4v1719516870857!5m2!1sen!2sin"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d203729.87971421555!2d77.42555936402832!3d17.32156347955587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc93f8bc6151487%3A0x82b9e832112208f1!2sTandur%2C%20Telangana%20501141!5e0!3m2!1sen!2sin!4v1721059931376!5m2!1sen!2sin"
         width="100%"
         height="450"
         style={{ border: 0 }}

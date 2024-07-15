@@ -13,7 +13,7 @@ const Brands = () => {
          <div className="hh"><h1>Can we help?</h1></div>
          <div className="pp">
           <p>Our friendly team are on hand to answer any questions you might have.</p>
-          <p>+44 (0)115 927 1721 or info@an-wallis.com</p>
+          <p>+91-40-31603812 or service@matrixincorporation.com</p>
          </div>
             </div>
           </div>

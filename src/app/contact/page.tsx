@@ -45,9 +45,9 @@ const ContactPage = () => {
                 </svg>
               </div>
               <div className="ml-4">
-                <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Our Address</h3>
-                <p className="text-gray-600 dark:text-slate-400">#4-3-2/3/A Janta weight bridge Chincholi Road, Tandur</p>
-                <p className="text-gray-600 dark:text-slate-400">(V) Tandur (M) Telangana State India</p>
+                <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Reg. Address</h3>
+                <p className="text-gray-600 dark:text-slate-400">#20-4-529/5&6 Chowmohalla Palace Hyderabad-500002 Telangana State India </p>
+                <p className="text-gray-600 dark:text-slate-400"></p>
               </div>
             </li>
             <li className="flex">
@@ -60,8 +60,9 @@ const ContactPage = () => {
               </div>
               <div className="ml-4">
                 <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Contact</h3>
-                <p className="text-gray-600 dark:text-slate-400">Mobile: +91-7569815748</p>
-                <p className="text-gray-600 dark:text-slate-400">Mail: example@gmail.com</p>
+                <p className="text-gray-600 dark:text-slate-400">Mob No.+91-7780599423 / +91-9052729776 Skype / WhatsApp / wechat: +91-9052729776 Tel No. +91-40-31603812 Fax No. +91-40-31603812</p>
+                <p className="text-gray-600 dark:text-slate-400">Mail: service@matrixincorporation.com</p>
+                <p className="text-gray-600 dark:text-slate-400">Mail: sales@matrixincorporation.com</p>
               </div>
             </li>
             <li className="flex">
@@ -73,13 +74,14 @@ const ContactPage = () => {
               </div>
               <div className="ml-4">
                 <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Working hours</h3>
-                <p className="text-gray-600 dark:text-slate-400">Monday - Friday: 08:00 - 17:00</p>
-                <p className="text-gray-600 dark:text-slate-400">Saturday & Sunday: 08:00 - 12:00</p>
+                <p className="text-gray-600 dark:text-slate-400">Monday - Saturday: 10:00 - 07:00</p>
+                <p className="text-gray-600 dark:text-slate-400" >Sunday: Closed</p>
               </div>
             </li>
           </ul>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d59533.963915517415!2d79.06749526616059!3d21.15746200235821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sgoogle%20map!5e0!3m2!1sen!2sin!4v1719598586935!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d203729.87971421555!2d77.42555936402832!3d17.32156347955587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc93f8bc6151487%3A0x82b9e832112208f1!2sTandur%2C%20Telangana%20501141!5e0!3m2!1sen!2sin!4v1721059931376!5m2!1sen!2sin"
+            
             width="100%"
             height="450"
             style={{ border: 0 }}
@@ -89,7 +91,7 @@ const ContactPage = () => {
           />
         </div>
         <div className="card h-fit max-w-6xl p-5 md:p-12" id="form">
-          <h2 className="mb-4 text-2xl font-bold dark:text-white">Ready to Get Started?</h2>
+          <h2 className="mb-4 text-2xl font-bold dark:text-white">Enquiry Form</h2>
           <form id="contactForm">
             <div className="mb-6">
               <div className="mx-0 mb-1 sm:mb-4">
@@ -124,10 +126,13 @@ const ContactPage = () => {
                   <option value="option1">Consultant</option>
                   <option value="option2">Electrical Contractor</option>
                   <option value="option3">Electrical Trader/Distributer</option>
-                  <option value="option3">Surge Protection Product</option>
-                  <option value="option3">Earthing Design Service</option>
+    
+
                   <option value="option3">Lightning Protection Design Services</option>
                   <option value="option3">Installation Services</option>
+                  <option value="option3">Project</option>
+                  <option value="option3">Export</option>
+                  <option value="option3">Consumer</option>
                 </select>
               </div>
               <div className="mx-0 mb-1 sm:mb-4">
@@ -135,23 +140,29 @@ const ContactPage = () => {
                 <div className="flex flex-col">
                   <label className="mb-1">
                     <input type="checkbox" name="checkboxOption" value="earthingProducts" className="mr-2" />
-                    Earthing Products
+                    Earthing / Grounding Products
                   </label>
-                  <label className="mb-1">
-                    <input type="checkbox" name="checkboxOption" value="earthingElectrodes" className="mr-2" />
-                    Earthing Electrodes
-                  </label>
-                  <label className="mb-1">
-                    <input type="checkbox" name="checkboxOption" value="chemicalEarthingElectrodes" className="mr-2" />
-                    Chemical Earthing Electrodes
-                  </label>
+                
+                 
                   <label className="mb-1">
                     <input type="checkbox" name="checkboxOption" value="lightningProtectionSystem" className="mr-2" />
                     Lightning Protection System
                   </label>
                   <label className="mb-1">
                     <input type="checkbox" name="checkboxOption" value="surgeProtectionDevice" className="mr-2" />
-                    Surge Protection Device
+                    Cable Trays
+                  </label>
+                  <label className="mb-1">
+                    <input type="checkbox" name="checkboxOption" value="surgeProtectionDevice" className="mr-2" />
+                   Metals Exothermic Welding
+                  </label>
+                  <label className="mb-1">
+                    <input type="checkbox" name="checkboxOption" value="surgeProtectionDevice" className="mr-2" />
+                   Conductors
+                  </label>
+                  <label className="mb-1">
+                    <input type="checkbox" name="checkboxOption" value="surgeProtectionDevice" className="mr-2" />
+                  Fastners & Fixing
                   </label>
                 </div>
               </div>

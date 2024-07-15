@@ -46,14 +46,14 @@ const featuresData: Feature[] = [
     paragraph:
       "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
   },
-  {
-    id: 1,
-    icon: (
-  <img src="https://ep-us.mersen.com/sites/mersen_us/files/2019-05/PHP_Power%20Line%20SPD%20-%20DIN-RAIL%20IEC%20TYPE%202%2B3UL%20CSA.PNG" alt="" />
-    ),
-    title: "Surge protection",
-    paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
-  },
+  // {
+  //   id: 1,
+  //   icon: (
+  // <img src="https://ep-us.mersen.com/sites/mersen_us/files/2019-05/PHP_Power%20Line%20SPD%20-%20DIN-RAIL%20IEC%20TYPE%202%2B3UL%20CSA.PNG" alt="" />
+  //   ),
+  //   title: "Surge protection",
+  //   paragraph:
+  //     "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+  // },
 ];
 export default featuresData;

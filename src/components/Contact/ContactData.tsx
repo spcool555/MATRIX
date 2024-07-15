@@ -13,16 +13,14 @@ const NewsLatterBox3 = () => {
 
       <div>
         <p>
-        #4-3-2/3/A Janta weight bridge
-Chincholi Road, Tandur (V)
-Tandur (M)
-Telangana State India
-        </p> <br />
-        <a href="#">
-    
-        info@matrix.com
-        </a><br />
-        <p>    +91-7569815748</p>
+          #20-4-529/5&6 Chowmohalla Palace Hyderabad-500002 Telangana State
+          India
+        </p>{" "}
+        <br />
+        <br />
+        <p>  Mob No.+91-7780599423 / +91-9052729776 Skype / WhatsApp /
+        wechat: +91-9052729776 Tel No. +91-40-31603812 Fax No. +91-40-31603812</p>
+        <a href="#">service@matrixincorporation.com</a>
         <br />
       </div>
 

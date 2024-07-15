@@ -7,7 +7,7 @@ const menuData = [
     title: "Products",
     submenu: [
       {
-        title: "Earthing",
+        title: "Grounding",
         links: [
           { title: "Earth Rods", path: "/products?category=earthrod" },
           { title: "Earth Rod Seals", path: "/products?category=earthrodseal" },
@@ -34,24 +34,8 @@ const menuData = [
           { title: " Free-Standing Air Terminals", path: "/products?category=fsat" },
         ],
       },
-
       {
-        title: "Conductors",
-        links: [
-          { title: "Bare Copper Tapes", path: "/products?category=bct" },
-          { title: "Bare Aluminium Tapes", path: "/products?category=bat" },
-          { title: "PVC Covered Copper Tapes", path: "/products?category=pvccct" },
-          { title: "PVC Covered Aluminium Tapes", path: "/products?category=pvccat" },
-          { title: "LSOH Covered Copper Tapes", path: "/products?category=lsohcct" },
-          { title: "Tinned Copper Tapes", path: "/products?category=tct" },
-          { title: " Bare Hard Drawn Copper Bars ", path: "/products?category=bhdcb" },
-          { title: " Bare Solid Circular Copper Conductor", path: "/products?category=bsccc" },
-          { title: " Bare Stranded Copper Conductors", path: "/products?category=bscc" },
-        ],
-      },
-
-      {
-        title: "Cable Trags",
+        title: "Cable Trays",
         links: [
           { title: " abcd", path: "/ios" },
           { title: " abcd", path: "/ios" },
@@ -63,6 +47,23 @@ const menuData = [
         
         ],
       },
+      {
+        title: "Metals",
+        links: [
+          { title: " abcd", path: "/ios" },
+          { title: " abcd", path: "/ios" },
+          { title: " abcd", path: "/ios" },
+          { title: " abcd", path: "/ios" },
+          { title: " abcd", path: "/ios" },
+          { title: " abcd", path: "/ios" },
+          { title: " abcd", path: "/ios" },
+        
+        ],
+      },
+
+   
+
+     
       // {
       //   title: "Surge Protection",
       //   links: [
@@ -93,6 +94,21 @@ const menuData = [
           { title: " Cable to Steel Surface", path: "/products?category=ctss" },
           { title: " Stud to Steel Surface ", path: "/products?category=stss" },
           { title: "  Welding Powders  ", path: "/products?category=wp" },
+        ],
+      },
+
+      {
+        title: "Conductors",
+        links: [
+          { title: "Bare Copper Tapes", path: "/products?category=bct" },
+          { title: "Bare Aluminium Tapes", path: "/products?category=bat" },
+          { title: "PVC Covered Copper Tapes", path: "/products?category=pvccct" },
+          { title: "PVC Covered Aluminium Tapes", path: "/products?category=pvccat" },
+          { title: "LSOH Covered Copper Tapes", path: "/products?category=lsohcct" },
+          { title: "Tinned Copper Tapes", path: "/products?category=tct" },
+          { title: " Bare Hard Drawn Copper Bars ", path: "/products?category=bhdcb" },
+          { title: " Bare Solid Circular Copper Conductor", path: "/products?category=bsccc" },
+          { title: " Bare Stranded Copper Conductors", path: "/products?category=bscc" },
         ],
       },
       {

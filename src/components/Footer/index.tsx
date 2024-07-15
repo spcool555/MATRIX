@@ -33,8 +33,8 @@ Hyderabad-500002
 Telangana State India
 Mob No.+91-7780599423 / +91-9052729776
 Skype / WhatsApp / wechat: +91-9052729776
-Tel No. +91-40-42607464
-Fax No. +91-40-42607464
+Tel No. +91-40-31603812
+Fax No. +91-40-31603812
                 </p>
                 <div className="flex items-center">
                   <a
@@ -134,7 +134,7 @@ Fax No. +91-40-42607464
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Pricing
+                  Certificates
                     </Link>
                   </li>
                   <li>

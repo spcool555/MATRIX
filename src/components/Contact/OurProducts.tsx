@@ -15,7 +15,7 @@ const NewsLatterBox2 = () => {
         <ul className="list-inside list-disc">
           <li className="mb-2">
             <a href="#" className="text-blue-500 hover:underline">
-              Earthing
+              Earthing / Grounding
             </a>
           </li>
           <li className="mb-2">
@@ -25,12 +25,12 @@ const NewsLatterBox2 = () => {
           </li>
           <li className="mb-2">
             <a href="#" className="text-blue-500 hover:underline">
-              Conductors
+          Cable Trays
             </a>
           </li>
           <li className="mb-2">
             <a href="#" className="text-blue-500 hover:underline">
-              Fasteners & Fixings
+             Metals
             </a>
           </li>
           <li className="mb-2">
@@ -40,7 +40,12 @@ const NewsLatterBox2 = () => {
           </li>
           <li className="mb-2">
             <a href="#" className="text-blue-500 hover:underline">
-              Surge Protecti
+              Conductors
+            </a>
+          </li>
+          <li className="mb-2">
+            <a href="#" className="text-blue-500 hover:underline">
+              Fastners & Fixing
             </a>
           </li>
         </ul>
