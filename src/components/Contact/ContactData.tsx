@@ -12,14 +12,15 @@ const NewsLatterBox3 = () => {
       </h3>
 
       <div>
+        <h4 style={{color:"red"}}>Off & Works</h4>
         <p>
-          #20-4-529/5&6 Chowmohalla Palace Hyderabad-500002 Telangana State
-          India
+        Unit No.4-3-2/3 Near Janta Weight Bridge,Chincholi Road,Telangana State-501141
         </p>{" "}
+        <a href="#">sales@matrixincorporation.com</a>
         <br />
         <br />
-        <p>  Mob No.+91-7780599423 / +91-9052729776 Skype / WhatsApp /
-        wechat: +91-9052729776 Tel No. +91-40-31603812 Fax No. +91-40-31603812</p>
+        <h4 style={{color:"red"}}>Reg. Add.</h4>
+        <p> #20-4-529/5&6 Chowmohalla Palace Hyderabad-500002 Telangana State India </p>
         <a href="#">service@matrixincorporation.com</a>
         <br />
       </div>

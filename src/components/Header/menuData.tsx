@@ -168,9 +168,22 @@ const menuData = [
     path: "/Projects",
   },
   {
-    title: "Contact",
+    title: "Certification",
+    path: "/certification",
+  },
+  {
+    title: "Contact Us",
     path: "/contact",
   },
+  {
+    title: "Enquiry",
+    path: "/s",
+  },
+  {
+    title: "Brands",
+    path: "/d",
+  },
+
 
 ];
 
