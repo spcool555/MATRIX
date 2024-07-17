@@ -75,6 +75,12 @@ const AboutSectionOne = () => {
                 <li>
                 <img src="/images/ourClients/17.jpeg" alt="cleints" />
                 </li>
+                <li>
+                <img src="/images/ourClients/18.png" alt="cleints" />
+                </li>
+                <li>
+                <img src="/images/ourClients/19.png" alt="cleints" />
+                </li>
 
               </ul>
             </div>

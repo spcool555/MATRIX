@@ -9,14 +9,20 @@ const menuData = [
       {
         title: "Grounding",
         links: [
-          { title: "Earth Rods", path: "/products?category=earthrod" },
-          { title: "Earth Rod Seals", path: "/products?category=earthrodseal" },
-          { title: "Earth Inspection Housings", path: "/products?category=earthinspectionhousing" },
-          { title: "Low-Resistance Earthing Compound", path: "/products?category=lrec" },
-          { title: "Lattice Mats", path: "/products?category=lm" },
+          { title: "Solid Earthing Rods", path: "/products?category=SolidEarthingRods" },
+          { title: "Earthing System", path: "/products?category=EarthingSystem" },
+          { title: "Chemical Earthing Electrods", path: "/products?category=ChemicalEarthingElectrods" },
+          { title: "Pipe Earthing Roads", path: "/products?category=PipeEarthingRoads" },
+          { title: "Earth Station", path: "/products?category=EarthStation" },
+          { title: "Lattice Grounding Mats", path: "/products?category=lgm" },
+          { title: "Earth Plates", path: "/products?category=ep" },
+          { title: "Earth Clamps", path: "/products?category=ec" },
           { title: "Earth Bars", path: "/products?category=eb" },
-          { title: "'U' Bolt Clamps ", path: "/products?category=ubc" },
-          { title: "Ecopotential Boundry", path: "/products?category=eb" },
+          { title: "Earth Inspection Housing", path: "/products?category=eih" },
+          { title: "Low Resistance Earthing Compound ", path: "/products?category=lrec" },
+          { title: "Busbars", path: "/products?category=busbars" },
+          { title: "Copper Braided Flexible Links Shunts And Jumpers", path: "/products?category=cbflsaj" },
+          { title: "Earth Accessories", path: "/products?category=ea" },
         ],
       },
 
@@ -24,43 +30,40 @@ const menuData = [
         title: "Lightning Protection",
         links: [
           { title: "Air Rods", path: "/products?category=airrods" },
-          { title: "B Bonds", path: "/products?category=bbond" },
-          { title: " DC Clips", path: "/products?category=dcclips" },
-          { title: " Strike Pads", path: "/products?category=strikepad" },
-          { title: " Bimetallic Connectors", path: "/products?category=bc" },
-          { title: " Pyramid Holdfast ", path: "/products?category=ph" },
-          { title: " Oblong Junction Clamps ", path: "/products?category=ojc" },
-          { title: " Square Tape Clamps", path: "/products?category=stc" },
-          { title: " Free-Standing Air Terminals", path: "/products?category=fsat" },
+          { title: "Lightning Protection Clamps", path: "/products?category=LightningProtectionClamps" },
+        
         ],
       },
       {
-        title: "Cable Trays",
+        title: "Conductors",
         links: [
-          { title: " abcd", path: "/ios" },
-          { title: " abcd", path: "/ios" },
-          { title: " abcd", path: "/ios" },
-          { title: " abcd", path: "/ios" },
-          { title: " abcd", path: "/ios" },
-          { title: " abcd", path: "/ios" },
-          { title: " abcd", path: "/ios" },
-        
+          { title: "Conductors", path: "/products?category=Conductors" },
+         
         ],
       },
       {
         title: "Metals",
         links: [
-          { title: " abcd", path: "/ios" },
-          { title: " abcd", path: "/ios" },
-          { title: " abcd", path: "/ios" },
-          { title: " abcd", path: "/ios" },
-          { title: " abcd", path: "/ios" },
-          { title: " abcd", path: "/ios" },
-          { title: " abcd", path: "/ios" },
+          { title: "Metals", path: "/Metals" },
+       
         
         ],
       },
 
+      {
+        title: "Cable Trays",
+        links: [
+          { title: " Perforated Cable Trays", path: "/pct" },
+          { title: " Ladder Type Cable Trays", path: "/ltct" },
+          { title: " Trunking Cable Trays", path: "/tct" },
+          { title: " Raceways Cable Tray", path: "/rct" },
+          { title: " Wire Mesh Cable Trays", path: "/wmct" },
+          { title: " Non-Mettalic Cable Trays", path: "/nmct" },
+       
+        
+        ],
+      },
+    
    
 
      
@@ -97,20 +100,7 @@ const menuData = [
         ],
       },
 
-      {
-        title: "Conductors",
-        links: [
-          { title: "Bare Copper Tapes", path: "/products?category=bct" },
-          { title: "Bare Aluminium Tapes", path: "/products?category=bat" },
-          { title: "PVC Covered Copper Tapes", path: "/products?category=pvccct" },
-          { title: "PVC Covered Aluminium Tapes", path: "/products?category=pvccat" },
-          { title: "LSOH Covered Copper Tapes", path: "/products?category=lsohcct" },
-          { title: "Tinned Copper Tapes", path: "/products?category=tct" },
-          { title: " Bare Hard Drawn Copper Bars ", path: "/products?category=bhdcb" },
-          { title: " Bare Solid Circular Copper Conductor", path: "/products?category=bsccc" },
-          { title: " Bare Stranded Copper Conductors", path: "/products?category=bscc" },
-        ],
-      },
+     
       {
         title: "Fastners & Fixings",
         links: [

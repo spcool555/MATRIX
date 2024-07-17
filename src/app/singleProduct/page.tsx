@@ -9,31 +9,28 @@ import Swal from 'sweetalert2';
 const products = [
   {
     id: 1,
-    name: "Copperbond Earth Rods",
+    name: "Solid Copper Earth Rod ",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$10",
-    imageUrl: "/images/products/earthRod/copper-bonded-ul-earthing-rod.png",
-    category: "earthrod"
+    imageUrl: "/images/products/earthRod/copper-bonded-ul-earthing-rod.png"
   },
   {
     id: 2,
-    name: "Solid Copper Earth Rod",
+    name: "Solid Copper Earth Rod Externally Threaded",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$12",
-    imageUrl: "/images/products/earthRod/solid-copper-earth-rods-matrix.png",
-    category: "earthrod"
+    imageUrl: "/images/products/earthRod/solid-copper-earth-rods-matrix.png"
   },
   {
     id: 3,
-    name: "Tinned Solid Copper Earth Rods",
+    name: "Solid Copper Earth Rod Internally Threaded",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
-    imageUrl: "/images/products/earthRod/tscer.png",
-    category: "earthrod"
+    imageUrl: "/images/products/earthRod/tscer.png"
   },
   {
     id: 4,
-    name: "Stainless Steel Earth Rods",
+    name: "Solid Copper Earth Rod Welded Busbar Clamp",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
     imageUrl: "/images/products/earthRod/sser.png",
@@ -41,7 +38,7 @@ const products = [
   },
   {
     id: 5,
-    name: "Galvanised Steel Earth Rods Set",
+    name: "Solid Copper Earth Rods",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
     imageUrl: "/images/products/earthRod/gsers.png",
@@ -49,103 +46,332 @@ const products = [
   },
   {
     id: 6,
-    name: "Nickel Plated Solid Copper Earth Rods",
+    name: "Hot Dip Galvanized Solid Earth Rod Un-Threaded",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
     imageUrl: "/images/products/earthRod/npscer.png",
     category: "earthrod"
   },
-
   {
     id: 7,
-    name: "Summit Hiking",
+    name: "Hot Dip Galvanized Solid Earth Rod Externally Threaded",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    price: "$12",
-    imageUrl: "/images/products/earthRod/summit_hikking.png",
-    category: "earthrodseals"
+    price: "$14",
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
   },
   {
     id: 8,
-    name: "Heavy Duty Earth Inspection Housings",
+    name: "Hot Dip Galvanized Solid Earth Rod Internally Threaded",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    price: "$15",
-    imageUrl: "/images/products/earthRod/ssss.png",
-     category: "earthinspectionhousing"
+    price: "$14",
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
   },
   {
     id: 9,
-    name: "Light Duty Earth Inspection Housing",
+    name: "Hot Dip Galvanized Solid Earth Rod welded Busbar Clamp",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
-    imageUrl: "/images/products/earthRod/ets-cable-components_plastic-inspection-pits-earth-bars-removebg-preview.png",
-       category: "earthinspectionhousing"
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
   },
-
   {
     id: 10,
-    name: "Taper Pointed Air Rods",
+    name: "Galvanized Steel Earth Rods",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
-    imageUrl: "/images/products/earthRod/airRod.png",
-    category: "airrods"
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
   },
   {
     id: 11,
-    name: "Air Rods",
+    name: "Copper Bonded Earth Rod Un-Threaded",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
-    imageUrl: "/images/products/earthRod/airRod2.png",
-    category: "airrods"
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
   },
   {
     id: 12,
-    name: "Low resistance compound ",
+    name: "Copper Bonded Earth Rod Externally Threaded",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
-    imageUrl: "/images/menueimages/lrc.jpeg"
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
   },
   {
     id: 13,
-    name: "Aluminum busbar ",
+    name: "Copper Bonded Earth Rod Internally Threaded",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
-    imageUrl: "/images/menueimages/Aluminum_busbar.png"
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
   },
   {
     id: 14,
-    name: "tinned copper busbar type",
+    name: "Copper Bonded Earth Rod welded busbar Clamp",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
-    imageUrl: "/images/menueimages/tinned copper busbar type.jpeg"
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
   },
   {
     id: 15,
-    name: "U-Bolts Clamps - Single Plate Type For Horizontal Flat Tapes",
+    name: "Copper bond Earth Rods",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
-    imageUrl: "/images/products/uClamps/spuclamp.png"
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
   },
   {
     id: 16,
-    name: "U-Bolts Clamps - Double Plate Type For Vertical Flat Tapes",
+    name: "Stainless Steel Solid Earth Rod Un-Threaded",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
-    imageUrl: "/images/products/uClamps/VerticalFlatTapes.png"
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
   },
   {
     id: 17,
-    name: "U-Bolts Clamps - Double Plate Type For Vertical Standard Table",
+    name: "Stainless Steel Solid Earth Rod Externally Threaded",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
-    imageUrl: "/images/products/uClamps/spuclamp.png"
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
   },
   {
     id: 18,
-    name: "3-Way'U'Bolt Clamp",
+    name: "Stainless Steel Solid Earth Rod Internally Threaded",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
-    imageUrl: "/images/products/uClamps/3way.png"
-  }
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
+  },
+  {
+    id: 19,
+    name: "Stainless Steel Solid Earth Rod Welded Busbar Clamp",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
+  },
+  {
+    id: 20,
+    name: "Stainless Steel Earth Rods ",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
+  },
+  {
+    id: 21,
+    name: "Molybdenum Stainless Steel Earth Rods",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
+  },
+  {
+    id: 22,
+    name: "Tinned Copper Solid Earth Rod Un-Threaded",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
+  },
+  {
+    id: 23,
+    name: "Tinned Copper Solid Earth Rods ",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
+  },
+  {
+    id: 24,
+    name: "Tinned Copper Solid Earth Rod Internally Threaded",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
+  },
+  {
+    id: 25,
+    name: "Brass Solid Earth Rod Un-Threaded",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
+  },
+  {
+    id: 26,
+    name: "Brass Solid Earth Rod Externally Threaded",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
+  },
+  {
+    id: 27,
+    name: "Brass Solid Earth Rod Internally Threaded",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
+  },
+  {
+    id: 28,
+    name: "Brass Solid Earth Rod Welded Busbar Clamp",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
+  },
+  {
+    id: 29,
+    name: "Graphite Solid Earth Rod Un-Threaded",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
+  },
+  {
+    id: 30,
+    name: "Tinned Copper Solid Earth Rod Externally Threaded",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
+  },
+  {
+    id: 31,
+    name: "Graphite Solid Earth Rod Externally Threaded",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
+  },
+  {
+    id: 32,
+    name: "Graphite Solid Earth Rod Internally Threaded",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
+  },
+  {
+    id: 33,
+    name: "Graphite Solid Earth Rod Welded Busbar Clamp",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
+  },
+  {
+    id: 34,
+    name: "Angular Earth Rod ",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
+  },
+  {
+    id: 35,
+    name: "Spike Earth Rod",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
+  },
+  {
+    id: 36,
+    name: "Zinc Earth Rod ",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
+  },
+  {
+    id: 37,
+    name: "Nickel Plated Solid Copper Earth Rod",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
+  },
+  {
+    id: 38,
+    name: "Coupling Dowels",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
+  },
+  {
+    id: 39,
+    name: "Driving Heads",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
+  },
+  {
+    id: 40,
+    name: "Driving Spikes",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
+  },
+  {
+    id: 41,
+    name: "Cross Profile Galvanised Steel Earth Rods",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
+  },
+  {
+    id: 42,
+    name: "Nickel Earth Rods",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
+  },
+  {
+    id: 43,
+    name: "Ion Earth Rod",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
+  },
+  {
+    id: 44,
+    name: "Nickel Earth Rod ",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
+  },
+  {
+    id: 45,
+    name: "Copper Clad Steel Earth Rod",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
+  },
+  {
+    id: 46,
+    name: "Molybdenum Earth Rod",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/npscer.png",
+    category: "earthrod"
+  },
 ];
 
 const SingleProduct = () => {
