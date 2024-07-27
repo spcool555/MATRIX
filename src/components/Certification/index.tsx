@@ -14,12 +14,15 @@ const Certification = () => {
             <div className="grid grid-cols-12 gap-4">
               <div className="col-span-4">
                 <img className="img-s"  src="./images/certificate/1.jpg" alt="" />
+                <img src="./images/certificate/l1.png" alt=""  style={{width:"15%", borderRadius:"10px"}}/>
               </div>
               <div className="col-span-4">
                 <img className="img-s" src="./images/certificate/2.jpg" alt="" />
+                <img src="./images/certificate/l2.png" alt=""  style={{width:"15%", borderRadius:"10px"}}/>
               </div>
               <div className="col-span-4">
                 <img className="img-s" src="./images/certificate/3.jpg" alt="" />
+                <img src="./images/certificate/l3.png" alt=""  style={{width:"15%", borderRadius:"10px"}}/>
               </div>
             </div>
           </div>
@@ -27,12 +30,15 @@ const Certification = () => {
             <div className="grid grid-cols-12 gap-4">
               <div className="col-span-4">
                 <img className="img-s" src="./images/certificate/4.jpg" alt="" />
+                <img src="./images/certificate/l4.svg" alt=""  style={{width:"15%", borderRadius:"10px"}}/>
               </div>
               <div className="col-span-4">
                 <img className="img-s" src="./images/certificate/5.jpg" alt="" />
+                <img src="./images/certificate/l5.svg" alt=""  style={{width:"15%", borderRadius:"10px"}}/>
               </div>
               <div className="col-span-4">
                 <img className="img-s" src="./images/certificate/6.jpg" alt="" />
+                <img src="./images/certificate/ll6.svg" alt=""  style={{width:"15%", borderRadius:"10px"}}/>
               </div>
             </div>
           </div>
@@ -40,6 +46,25 @@ const Certification = () => {
             <div className="grid grid-cols-12 gap-4">
               <div className="col-span-4">
                 <img className="img-s" src="./images/certificate/7.jpg" alt="" />
+              </div>
+              <div className="col-span-4">
+                <img className="img-s" src="./images/certificate/8.jpg" alt="" />
+              </div>
+              <div className="col-span-4">
+                <img className="img-s" src="./images/certificate/9.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div className="container">
+            <div className="grid grid-cols-12 gap-4">
+              <div className="col-span-4">
+                <img className="img-s" src="./images/certificate/10.jpg" alt="" />
+              </div>
+              <div className="col-span-4">
+                <img className="img-s" src="./images/certificate/11.jpg" alt="" />
+              </div>
+              <div className="col-span-4">
+                <img className="img-s" src="./images/certificate/12.jpg" alt="" />
               </div>
             </div>
           </div>

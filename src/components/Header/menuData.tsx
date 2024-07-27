@@ -44,7 +44,18 @@ const menuData = [
       {
         title: "Metals",
         links: [
-          { title: "Metals", path: "/Metals" },
+          { title: "Copper", path: "/Copper" },
+          { title: "Aluminum", path: "/Aluminum" },
+          { title: "Brass", path: "/Brass" },
+          { title: "Stainless Steel", path: "/StainlessSteel" },
+          { title: "Phosphor Bronze", path: "/PhosphorBronze" },
+          { title: "Tinned Copper", path: "/TinnedCopper" },
+          { title: "Molybdenum", path: "/Molybdenum" },
+          { title: "Titanium", path: "/Titanium" },
+          { title: "Nickel", path: "/Nickel" },
+          { title: "Lead", path: "/Lead" },
+          { title: "Alloy Steel", path: "/AlloySteel" },
+          { title: "Hot Dip Galvanized Steel", path: "/HotDipGalvanizedSteel" },
        
         
         ],

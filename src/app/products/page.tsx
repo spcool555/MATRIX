@@ -373,8 +373,22 @@ const SolidEarthingRods = [
 
 const EarthingSystem = [
   {
-    id: 7,
-    name: "Summit Hiking",
+    id: 47,
+    name: "Tripolar Earthing System",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$12",
+    imageUrl: "/images/products/earthRod/summit_hikking.png"
+  },
+  {
+    id: 48,
+    name: "Tripod Earthing System ",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$12",
+    imageUrl: "/images/products/earthRod/summit_hikking.png"
+  },
+  {
+    id: 49,
+    name: "Anolyte Grounding System",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$12",
     imageUrl: "/images/products/earthRod/summit_hikking.png"
@@ -383,15 +397,120 @@ const EarthingSystem = [
 
 const ChemicalEarthingElectrods = [
   {
-    id: 8,
-    name: "Heavy Duty Earth Inspection Housings",
+    id: 50,
+    name: "Hot Dip Galvanized Earthing Electrode ",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$15",
     imageUrl: "/images/products/earthRod/ssss.png"
   },
   {
-    id: 9,
-    name: "Light Duty Earth Inspection Housing",
+    id: 51,
+    name: "Zinc Coated Earthing Electrode",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/ets-cable-components_plastic-inspection-pits-earth-bars-removebg-preview.png"
+  },
+  {
+    id: 52,
+    name: "Alloy Coated Earthing Electrode",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/ets-cable-components_plastic-inspection-pits-earth-bars-removebg-preview.png"
+  },
+  {
+    id: 53,
+    name: "Copper Earthing Electrode",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/ets-cable-components_plastic-inspection-pits-earth-bars-removebg-preview.png"
+  },
+  {
+    id: 54,
+    name: "Copper Bonded Earthing Electrode",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/ets-cable-components_plastic-inspection-pits-earth-bars-removebg-preview.png"
+  },
+  {
+    id: 55,
+    name: "Gi Earthing Electrode",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/ets-cable-components_plastic-inspection-pits-earth-bars-removebg-preview.png"
+  },
+  {
+    id: 56,
+    name: "Stainless Steel Earthing Electrode",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/ets-cable-components_plastic-inspection-pits-earth-bars-removebg-preview.png"
+  },
+  {
+    id: 57,
+    name: "Copper Earthing Electrode",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/ets-cable-components_plastic-inspection-pits-earth-bars-removebg-preview.png"
+  },
+  {
+    id: 58,
+    name: "Brass Earthing Electrode",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/ets-cable-components_plastic-inspection-pits-earth-bars-removebg-preview.png"
+  },
+  {
+    id: 59,
+    name: "Pipe in Strip Earthing Electrode",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/ets-cable-components_plastic-inspection-pits-earth-bars-removebg-preview.png"
+  },
+  {
+    id: 60,
+    name: "Pipe in Pipe Earthing Electrode",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/ets-cable-components_plastic-inspection-pits-earth-bars-removebg-preview.png"
+  },
+  {
+    id: 61,
+    name: "Heavy Duty Earthing Electrode",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/ets-cable-components_plastic-inspection-pits-earth-bars-removebg-preview.png"
+  },
+  {
+    id: 62,
+    name: "Ion Electrolytic Copper Earthing Electrode",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/ets-cable-components_plastic-inspection-pits-earth-bars-removebg-preview.png"
+  },
+  {
+    id: 63,
+    name: "Ion Electrolytic Copper Clad Steel Earthing Electrode",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/ets-cable-components_plastic-inspection-pits-earth-bars-removebg-preview.png"
+  },
+  {
+    id: 64,
+    name: "Ion Electrolytic Stainless Steel Earthing Electrode",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/ets-cable-components_plastic-inspection-pits-earth-bars-removebg-preview.png"
+  },
+  {
+    id: 65,
+    name: "Ion Electrolytic Hot Dip GI Earthing Electrode",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/ets-cable-components_plastic-inspection-pits-earth-bars-removebg-preview.png"
+  },
+  {
+    id: 66,
+    name: "Chemical ground electrodes",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
     imageUrl: "/images/products/earthRod/ets-cable-components_plastic-inspection-pits-earth-bars-removebg-preview.png"
@@ -400,15 +519,50 @@ const ChemicalEarthingElectrods = [
 
 const PipeEarthingRoads = [
   {
-    id: 10,
-    name: "Taper Pointed Air Rods",
+    id: 67,
+    name: "CI Earthing Pipe Rod ",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
     imageUrl: "/images/products/earthRod/airRod.png"
   },
   {
-    id: 11,
-    name: "Air Rods",
+    id: 68,
+    name: "CI Earthing Pipe with GI Clamp ",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/airRod2.png"
+  },
+  {
+    id: 69,
+    name: "CI Earthing Pipe with Flange",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/airRod2.png"
+  },
+  {
+    id: 70,
+    name: "CI Pipe With GI Clamp Mesh Funnel",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/airRod2.png"
+  },
+  {
+    id: 71,
+    name: "GI Earthing Pipe perforated",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/airRod2.png"
+  },
+  {
+    id: 72,
+    name: "Hot Dip Galvanized Earthing Pipe",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/products/earthRod/airRod2.png"
+  },
+  {
+    id: 73,
+    name: "Copper Pipe Earthing Rod ",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
     imageUrl: "/images/products/earthRod/airRod2.png"
@@ -417,8 +571,29 @@ const PipeEarthingRoads = [
 
 const EarthStation =[
   {
-    id: 12,
-    name: "Low resistance compound ",
+    id: 74,
+    name: "GI Earth Station  ",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/menueimages/lrc.jpeg"
+  },
+  {
+    id: 75,
+    name: "Copper Plate GI Pipe Earth Station ",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/menueimages/lrc.jpeg"
+  },
+  {
+    id: 76,
+    name: "Hot Dip GI Earth Station ",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    price: "$14",
+    imageUrl: "/images/menueimages/lrc.jpeg"
+  },
+  {
+    id: 77,
+    name: "Hot Dip GI Earth Station ",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     price: "$14",
     imageUrl: "/images/menueimages/lrc.jpeg"
