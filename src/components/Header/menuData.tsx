@@ -178,7 +178,7 @@ const menuData = [
   },
   {
     title: "Enquiry",
-    path: "/s",
+    path: "/contact",
   },
   {
     title: "Brands",

@@ -66,7 +66,7 @@ const Certification = () => {
               </div>
               <div className="col-span-4">
                 <img className="img-s" src="./images/certificate/11.jpg" alt="" />
-                <img src="./images/certificate/l11.png" alt=""  style={{width:"15%", borderRadius:"10px"}}/>
+               <b> <h3>NEMA</h3></b>
               </div>
               <div className="col-span-4">
                 <img className="img-s" src="./images/certificate/12.jpg" alt="" />

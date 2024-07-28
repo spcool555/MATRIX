@@ -11,17 +11,36 @@ const Footer = () => {
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
-                <h2 style={{color:'#F6A705',fontSize: '36px'}} >Matrix Incorporation</h2>
+                  <h2 style={{ color: "#F6A705", fontSize: "36px" }}>
+                    Matrix Incorporation
+                  </h2>
                 </Link>
-                <p className="mb-1 text-base leading-relaxed text-body-color dark:text-body-color-dark" >REGISTERED ADDRESS</p>
+                <p className="mb-1 text-base leading-relaxed text-body-color dark:text-body-color-dark">
+                  Off & Work
+                </p>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                #20-4-529/5&amp;6 Chowmohalla Palace
-Hyderabad-500002
-Telangana State India
-Mob No.+91-7780599423 / +91-9052729776
-Skype / WhatsApp / wechat: +91-9052729776
-Tel No. +91-40-31603812
-Fax No. +91-40-31603812
+                  Unit No.4-3-2/3 Near Janta Weight Bridge,Chincholi
+                  Road,Telangana State-501141{" "}
+                </p>
+                <p className="mb-1 text-base leading-relaxed text-body-color dark:text-body-color-dark">
+                  REGISTERED ADDRESS
+                </p>
+
+                <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
+                  #20-4-529/5&amp;6 Chowmohalla Palace Hyderabad-500002
+                  Telangana State India{" "}
+                </p>
+                <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
+                  Mob No.+91-7780599423 / +91-9052729776 Skype / WhatsApp /
+                  wechat: +91-9052729776 Tel No. +91-40-31603812 Fax No.
+                  +91-40-31603812{" "}
+                <br />   Email:-  matrixhpc@gmail.com  matrixhpcomponents@gmail.com <br />
+                  sales@incorporation.com <br />
+                  exports@incorporation.com 
+                  
+                </p>
+                <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
+                 Website:-  www.matrixincorporation.com
                 </p>
                 <div className="flex items-center">
                   <a
@@ -40,6 +59,76 @@ Fax No. +91-40-31603812
                     >
                       <path
                         d="M12.1 10.4939V7.42705C12.1 6.23984 13.085 5.27741 14.3 5.27741H16.5V2.05296L13.5135 1.84452C10.9664 1.66676 8.8 3.63781 8.8 6.13287V10.4939H5.5V13.7183H8.8V20.1667H12.1V13.7183H15.4L16.5 10.4939H12.1Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    href="/"
+                    aria-label="social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                  >
+                    <svg
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12 2.163c3.204 0 3.584.012 4.85.07 1.206.055 2.007.24 2.478.41a4.91 4.91 0 011.675 1.074 4.91 4.91 0 011.073 1.675c.17.471.356 1.272.41 2.478.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.055 1.206-.24 2.007-.41 2.478a4.91 4.91 0 01-1.074 1.675 4.91 4.91 0 01-1.675 1.073c-.471.17-1.272.356-2.478.41-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.206-.055-2.007-.24-2.478-.41a4.91 4.91 0 01-1.675-1.073 4.91 4.91 0 01-1.073-1.675c-.17-.471-.356-1.272-.41-2.478-.058-1.266-.07-1.646-.07-4.85s.012-3.584.07-4.85c.055-1.206.24-2.007.41-2.478a4.91 4.91 0 011.074-1.675 4.91 4.91 0 011.675-1.074c.471-.17 1.272-.356 2.478-.41C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.738 0 8.332.013 7.052.072 5.78.132 4.732.304 3.877.612a6.907 6.907 0 00-2.518 1.642 6.907 6.907 0 00-1.642 2.518c-.308.855-.48 1.903-.54 3.175C-.013 8.332 0 8.738 0 12s.013 3.668.072 4.948c.06 1.272.232 2.32.54 3.175a6.907 6.907 0 001.642 2.518 6.907 6.907 0 002.518 1.642c.855.308 1.903.48 3.175.54C8.332 23.987 8.738 24 12 24s3.668-.013 4.948-.072c1.272-.06 2.32-.232 3.175-.54a6.907 6.907 0 002.518-1.642 6.907 6.907 0 001.642-2.518c.308-.855.48-1.903.54-3.175.06-1.28.072-1.686.072-4.948s-.013-3.668-.072-4.948c-.06-1.272-.232-2.32-.54-3.175a6.907 6.907 0 00-1.642-2.518 6.907 6.907 0 00-2.518-1.642c-.855-.308-1.903-.48-3.175-.54C15.668.013 15.262 0 12 0z"
+                        fill="currentColor"
+                      />
+                      <path
+                        d="M12 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zm0 10.162a3.996 3.996 0 110-7.992 3.996 3.996 0 010 7.992z"
+                        fill="currentColor"
+                      />
+                      <circle
+                        cx="18.406"
+                        cy="5.594"
+                        r="1.44"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    href="/"
+                    aria-label="social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                  >
+                    <svg
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.148-.198.297-.767.967-.94 1.165-.173.198-.347.223-.644.074-.297-.149-1.256-.464-2.39-1.479-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.134.298-.347.446-.521.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.611-.917-2.207-.242-.58-.487-.5-.67-.51-.173-.007-.371-.009-.57-.009-.198 0-.52.074-.792.372-.272.298-1.04 1.016-1.04 2.479 0 1.463 1.065 2.875 1.213 3.074.149.198 2.099 3.202 5.086 4.488.711.307 1.263.489 1.695.625.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.29.173-1.413-.074-.124-.273-.198-.57-.347zM12.02 2C6.477 2 2 6.477 2 12.02c0 2.121.652 4.09 1.77 5.73L2 22l4.392-1.75c1.602.878 3.401 1.37 5.628 1.37C17.565 21.62 22 17.185 22 12.02 22 6.477 17.522 2 12.02 2z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    href="/"
+                    aria-label="social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                  >
+                    <svg
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12.004 0C5.373 0 0 5.373 0 12.004 0 17.162 3.434 21.379 8.188 23c-.113-.96-.215-2.435.044-3.486.236-.97 1.528-6.545 1.528-6.545s-.389-.78-.389-1.934c0-1.813 1.051-3.169 2.36-3.169 1.11 0 1.646.833 1.646 1.831 0 1.116-.711 2.787-1.077 4.337-.31 1.305.656 2.367 1.947 2.367 2.336 0 3.917-3.005 3.917-6.558 0-2.716-1.828-4.747-5.146-4.747-3.74 0-6.08 2.797-6.08 5.903 0 1.085.318 1.854.818 2.442.228.271.26.38.178.691-.058.229-.194.786-.25 1.007-.081.31-.335.42-.617.304-1.726-.705-2.512-2.588-2.512-4.711 0-3.5 2.957-7.688 8.805-7.688 4.713 0 7.807 3.412 7.807 7.084 0 4.826-2.696 8.423-6.66 8.423-1.338 0-2.594-.727-3.021-1.555l-.82 3.131c-.297 1.144-1.103 2.575-1.647 3.448C9.062 23.727 10.511 24 12.005 24 18.635 24 24 18.63 24 12.004 24 5.373 18.635 0 12.004 0z"
                         fill="currentColor"
                       />
                     </svg>
@@ -105,7 +194,7 @@ Fax No. +91-40-31603812
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Useful Links
+                  Home
                 </h2>
                 <ul>
                   <li>
@@ -113,7 +202,7 @@ Fax No. +91-40-31603812
                       href="/blog"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Blog
+                      Products
                     </Link>
                   </li>
                   <li>
@@ -121,7 +210,7 @@ Fax No. +91-40-31603812
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                  Certificates
+                      Technical Service
                     </Link>
                   </li>
                   <li>
@@ -139,31 +228,31 @@ Fax No. +91-40-31603812
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Terms
+                  Clients & Projects
                 </h2>
                 <ul>
                   <li>
                     <Link
-                      href="/"
+                      href="certification"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      TOS
+                      Certification
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="contact"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Privacy Policy
+                      Contact Us
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="contact"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Refund Policy
+                      Enquiry
                     </Link>
                   </li>
                 </ul>
@@ -173,31 +262,23 @@ Fax No. +91-40-31603812
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Support & Help
+                  Brands
                 </h2>
                 <ul>
                   <li>
                     <Link
-                      href="/contact"
+                      href="#"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Open Support Ticket
+                      Sorbplus
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="#"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Terms of Use
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/about"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      About
+                      Strong Ply
                     </Link>
                   </li>
                 </ul>
@@ -208,28 +289,28 @@ Fax No. +91-40-31603812
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-            © Copyright {" "}
+              © Copyright{" "}
               <a
                 href="http://uideck.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary"
               >
-           <span style={{color:'#F6A705'}}>   Matrix Incorporation </span> All Rights Reserved
+                <span style={{ color: "#F6A705" }}> Matrix Incorporation </span>{" "}
+                All Rights Reserved
               </a>{" "}
-            
             </p>
             <p className="text text-base text-body-color dark:text-white">
               Developed by{" "}
-              <a style={{color:'blue'}}
+              <a
+                style={{ color: "blue" }}
                 href="http://uideck.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary"
               >
-              Kstar Technology
+                Kstar Technology
               </a>{" "}
-            
             </p>
           </div>
         </div>

@@ -2,7 +2,7 @@ import React from "react";
 import { GoogleMap, LoadScript } from "@react-google-maps/api";
 import "../Brands/Brands.css"; // Ensure correct path to your CSS file
 import Brands from "../Brands";
-
+import '../../../public/images/countrys/1.png'
 const containerStyle = {
   width: "100%",
   height: "400px",
@@ -13,35 +13,19 @@ const center = {
   lng: -74.0083012,
 };
 const images = [
-   { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQet05WzGYI0pNE4GO0rahZto1xW1aXZtlpzg&s', alt: 'Kitten 2', description: 'A cute kitten'  },
-   { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQet05WzGYI0pNE4GO0rahZto1xW1aXZtlpzg&s', alt: 'Kitten 2', description: 'A cute kitten'  },
-   { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQet05WzGYI0pNE4GO0rahZto1xW1aXZtlpzg&s', alt: 'Kitten 2', description: 'A cute kitten'  },
-   { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQet05WzGYI0pNE4GO0rahZto1xW1aXZtlpzg&s', alt: 'Kitten 2', description: 'A cute kitten'  },
-   { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQet05WzGYI0pNE4GO0rahZto1xW1aXZtlpzg&s', alt: 'Kitten 2', description: 'A cute kitten'  },
-   { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQet05WzGYI0pNE4GO0rahZto1xW1aXZtlpzg&s', alt: 'Kitten 2', description: 'A cute kitten'  },
-  
-  // Add more images as needed
-];
-const images2 = [
-   { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQet05WzGYI0pNE4GO0rahZto1xW1aXZtlpzg&s', alt: 'Kitten 2', description: 'A cute kitten'  },
-   { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQet05WzGYI0pNE4GO0rahZto1xW1aXZtlpzg&s', alt: 'Kitten 2', description: 'A cute kitten'  },
-   { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQet05WzGYI0pNE4GO0rahZto1xW1aXZtlpzg&s', alt: 'Kitten 2', description: 'A cute kitten'  },
-   { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQet05WzGYI0pNE4GO0rahZto1xW1aXZtlpzg&s', alt: 'Kitten 2', description: 'A cute kitten'  },
-   { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQet05WzGYI0pNE4GO0rahZto1xW1aXZtlpzg&s', alt: 'Kitten 2', description: 'A cute kitten'  },
-   { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQet05WzGYI0pNE4GO0rahZto1xW1aXZtlpzg&s', alt: 'Kitten 2', description: 'A cute kitten'  },
-  
-  // Add more images as needed
-];
-const images3 = [
-   { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQet05WzGYI0pNE4GO0rahZto1xW1aXZtlpzg&s', alt: 'Kitten 2', description: 'A cute kitten'  },
-   { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQet05WzGYI0pNE4GO0rahZto1xW1aXZtlpzg&s', alt: 'Kitten 2', description: 'A cute kitten'  },
-   { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQet05WzGYI0pNE4GO0rahZto1xW1aXZtlpzg&s', alt: 'Kitten 2', description: 'A cute kitten'  },
-   { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQet05WzGYI0pNE4GO0rahZto1xW1aXZtlpzg&s', alt: 'Kitten 2', description: 'A cute kitten'  },
-   { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQet05WzGYI0pNE4GO0rahZto1xW1aXZtlpzg&s', alt: 'Kitten 2', description: 'A cute kitten'  },
-   { url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQet05WzGYI0pNE4GO0rahZto1xW1aXZtlpzg&s', alt: 'Kitten 2', description: 'A cute kitten'  },
-  
-  // Add more images as needed
-];
+   { url: 'images/countrys/1.png', alt: 'matrix projects'},
+   { url: 'images/countrys/2.png', alt: 'matrix projects'},
+   { url: 'images/countrys/3.png', alt: 'matrix projects'},
+   { url: 'images/countrys/4.png', alt: 'matrix projects'},
+   { url: 'images/countrys/5.png', alt: 'matrix projects'},
+   { url: 'images/countrys/6.png', alt: 'matrix projects'},
+   { url: 'images/countrys/7.png', alt: 'matrix projects'},
+   { url: 'images/countrys/8.png', alt: 'matrix projects'},
+   { url: 'images/countrys/9.png', alt: 'matrix projects'},
+   { url: 'images/countrys/10.png', alt: 'matrix projects'},
+   { url: 'images/countrys/11.png', alt: 'matrix projects'},
+      
+]
 const Projectss = () => {
   // Function to create custom control for Google Map
   const createCenterControl = (map) => {
@@ -96,45 +80,24 @@ const Projectss = () => {
       </section>
 
       <section className="map">
-      <iframe
-        title="Embedded Google Map"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d203729.87971421555!2d77.42555936402832!3d17.32156347955587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc93f8bc6151487%3A0x82b9e832112208f1!2sTandur%2C%20Telangana%20501141!5e0!3m2!1sen!2sin!4v1721059931376!5m2!1sen!2sin"
-        width="100%"
-        height="450"
-        style={{ border: 0 }}
-        allowFullScreen
-        loading="lazy"
-        referrerPolicy="no-referrer-when-downgrade"
-      ></iframe>
+       <iframe
+                  src="https://www.google.com/maps/d/embed?mid=1hXII84tPkwBmWIlxAw3K9qtbK1dDhqM&hl=en&ehbc=2E312F"
+                  width="100%"
+            height="450"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
        </section>
 
        <div className="container mx-auto px-4 py-8">
       <center>
-      <h1 className="text-2xl font-bold mb-4">Our Projects</h1>
+      <h1 style={{backgroundColor:'white', color:'#FAA603',  fontSize:'43px'}} className="text-2xl font-bold mb-4">Our Project Contry's</h1>
       </center>
       <div>
-      <center>  <div style={{backgroundColor:'white', color:'#FAA603', display:'inline-block', fontSize:'43px'}}>KSA</div></center>
-     
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-        {images.map((image, index) => (
-          <div key={index} className="p-4">
-            <img
-              src={image.url}
-              alt={image.alt}
-              className="object-cover w-full h-64 sm:h-48 md:h-64 rounded-lg shadow-md"
-            />
-              <div className="mt-2 text-center">
-            <p className="text-sm text-gray-600">{image.description}</p>
-          </div>
-          </div>
-        ))}
-      </div>
-      
-      </div>
-      <div>
         
-      <center>  <div style={{backgroundColor:'white', color:'#FAA603', display:'inline-block', fontSize:'43px'}}>KUWAIT</div></center>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {images.map((image, index) => (
           <div key={index} className="p-4">
             <img
@@ -143,51 +106,14 @@ const Projectss = () => {
               className="object-cover w-full h-64 sm:h-48 md:h-64 rounded-lg shadow-md"
             />
               <div className="mt-2 text-center">
-            <p className="text-sm text-gray-600">{image.description}</p>
+           
           </div>
           </div>
         ))}
       </div>
       
       </div>
-      <div>
-      <center>  <div style={{backgroundColor:'white', color:'#FAA603', display:'inline-block', fontSize:'43px'}}>OMAN</div></center>
-  
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-        {images2.map((image, index) => (
-          <div key={index} className="p-4">
-            <img
-              src={image.url}
-              alt={image.alt}
-              className="object-cover w-full h-64 sm:h-48 md:h-64 rounded-lg shadow-md"
-            />
-              <div className="mt-2 text-center">
-            <p className="text-sm text-gray-600">{image.description}</p>
-          </div>
-          </div>
-        ))}
-      </div>
-      
-      </div>
-      <div>
-      <center>  <div style={{backgroundColor:'white', color:'#FAA603', display:'inline-block', fontSize:'43px'}}>UAE</div></center>
-  
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-        {images2.map((image, index) => (
-          <div key={index} className="p-4">
-            <img
-              src={image.url}
-              alt={image.alt}
-              className="object-cover w-full h-64 sm:h-48 md:h-64 rounded-lg shadow-md"
-            />
-              <div className="mt-2 text-center">
-            <p className="text-sm text-gray-600">{image.description}</p>
-          </div>
-          </div>
-        ))}
-      </div>
-      
-      </div>
+   
     </div>
     <Brands/>
 
